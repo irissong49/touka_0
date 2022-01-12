@@ -6,4 +6,4 @@ moyu is important.
 pip install requirements.txt
 
 
-python playground.py
+python main.py
