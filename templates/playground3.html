@@ -3,13 +3,14 @@
 <head>
     <meta charset = "UTF-8">
     <title>Touka prototype0</title>
+    
 </head>
 <body>
     <h1> Talk to Touka </h1>
     <table>
         {% for l in line %}
             <tr>
-                <td> {{l}} </td>
+                <td>{{l|safe}}</td>
             </tr>
         {% endfor%}
     </table>
