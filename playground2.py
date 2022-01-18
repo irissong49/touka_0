@@ -78,7 +78,10 @@ def index():
         dialog.append("You: "+msg)
         for r in server_reply:
             dialog.append(r)
+        if msg =="clear!":
+            for i in range(len(dialog)):
+                dialog.pop(-1)
     return render_template("playground3.html",line=dialog)
 
 if __name__ == '__main__':
-    app.run('127.0.0.1', port=5000, debug=True)
+    app.run(host='0.0.0.0', port='5000', debug=True)

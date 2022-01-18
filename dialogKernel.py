@@ -266,6 +266,7 @@ def main():
         writelog("send to client:"+str(reply))
         conn.sendall(str(len(reply)).encode('utf-8'))
         for rr in reply:
+            time.sleep(0.1)
             rr=str(rr).encode('utf-8')
             conn.sendall(rr)
         conn.close()
@@ -273,3 +274,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

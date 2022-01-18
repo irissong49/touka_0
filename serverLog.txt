@@ -1,0 +1,171 @@
+Sat Jan 15 16:56:27 2022Server started listening...
+Sat Jan 15 16:56:49 2022Server started listening...
+Sat Jan 15 16:57:03 2022established a connection from:('127.0.0.1', 35832)
+Sat Jan 15 16:57:03 2022received from clinet: hi
+Sat Jan 15 16:57:03 2022send to client:['hi?']
+Sat Jan 15 16:59:37 2022Server started listening...
+Sat Jan 15 16:59:50 2022Server started listening...
+Sat Jan 15 17:00:00 2022established a connection from:('127.0.0.1', 35890)
+Sat Jan 15 17:00:00 2022received from clinet: maimai
+Sat Jan 15 17:00:01 2022send to client:['这个功能很慢（之后会改），请务必耐心等待不要狂暴轰入。总之先输入【省/直辖市】吧：625']
+Sat Jan 15 17:00:04 2022established a connection from:('127.0.0.1', 35894)
+Sat Jan 15 17:00:04 2022received from clinet: 上海
+Sat Jan 15 17:01:25 2022send to client:['接下来的步骤很慢还请耐心等待！那么，详细的地址是?：']
+Sat Jan 15 17:01:52 2022established a connection from:('127.0.0.1', 36004)
+Sat Jan 15 17:01:52 2022received from clinet: 上海市淞虹路地铁站
+Sat Jan 15 17:01:54 2022send to client:[['到上海市淞虹路地铁站最近的maimaiDX排序如下：', '<table border="1" class="dataframe data">\n  <thead>\n    <tr style="text-align: right;">\n      <th></th>\n      <th>placeId</th>\n      <th>machineCount</th>\n      <th>id</th>\n      <th>province</th>\n      <th>arcadeName</th>\n      <th>mall</th>\n      <th>address</th>\n      <th>coordinate</th>\n      <th>dis_to_target</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>0</th>\n      <td>1728</td>\n      <td>1</td>\n      <td>1728</td>\n      <td>上海</td>\n      <td>奥玩空间上海ESP店</td>\n      <td>奥玩空间上海ESP店</td>\n      <td>上海市普陀区同普路428号2楼奥玩空间</td>\n      <td>[31.227362, 121.386444]</td>\n      <td>29.235592</td>\n    </tr>\n    <tr>\n      <th>1</th>\n      <td>1293</td>\n      <td>2</td>\n      <td>1293</td>\n      <td>上海</td>\n      <td>风云再起上海中环百联店</td>\n      <td>风云再起上海中环百联店</td>\n      <td>上海市普陀区真光路1288号中环百联3楼风云再起</td>\n      <td>[31.24578, 121.383125]</td>\n      <td>36.560323</td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td>1195</td>\n      <td>2</td>\n      <td>1195</td>\n      <td>上海</td>\n      <td>风云再起上海长风大悦城店</td>\n      <td>风云再起上海长风大悦城店</td>\n      <td>上海市普陀区长风新村街道大渡河路168弄136号长风大悦城室外商场3楼L3-13室风云再起</td>\n      <td>[31.221907, 121.39522]</td>\n      <td>36.850309</td>\n    </tr>\n    <tr>\n      <th>3</th>\n      <td>1353</td>\n      <td>1</td>\n      <td>1353</td>\n      <td>上海</td>\n      <td>大玩家马桥万达店</td>\n      <td>大玩家马桥万达店</td>\n      <td>上海市马桥万达广场三楼大玩家</td>\n      <td>[31.239363, 121.32601]</td>\n      <td>38.480363</td>\n    </tr>\n    <tr>\n      <th>4</th>\n      <td>1330</td>\n      <td>1</td>\n      <td>1330</td>\n      <td>上海</td>\n      <td>大玩家上海江桥万达店</td>\n      <td>大玩家上海江桥万达店</td>\n      <td>上海市嘉定区金沙江西路1051号万达广场一楼大玩家</td>\n      <td>[31.240162, 121.32393]</td>\n      <td>40.667170</td>\n    </tr>\n    <tr>\n      <th>5</th>\n      <td>1527</td>\n      <td>1</td>\n      <td>1527</td>\n      <td>上海</td>\n      <td>汤姆熊上海环球港店</td>\n      <td>汤姆熊上海环球港店</td>\n      <td>上海市中山北路3300号环球港购物中心3楼3166室汤姆熊欢乐世界</td>\n      <td>[31.23483, 121.413086]</td>\n      <td>56.899804</td>\n    </tr>\n    <tr>\n      <th>6</th>\n      <td>1098</td>\n      <td>4</td>\n      <td>1098</td>\n      <td>上海</td>\n      <td>上海JOYPOLIS世嘉都市乐园</td>\n      <td>上海JOYPOLIS世嘉都市乐园</td>\n      <td>上海市普陀区中山北路3300号月星环球港四楼世嘉都市乐园</td>\n      <td>[31.234758, 121.41331]</td>\n      <td>57.094484</td>\n    </tr>\n    <tr>\n      <th>7</th>\n      <td>1288</td>\n      <td>2</td>\n      <td>1288</td>\n      <td>上海</td>\n      <td>汤姆熊上海长宁龙之梦店</td>\n      <td>汤姆熊上海长宁龙之梦店</td>\n      <td>上海市长宁区长宁路1810号龙之梦购物中心6楼汤姆熊欢乐世界</td>\n      <td>[31.218987, 121.416504]</td>\n      <td>57.999476</td>\n    </tr>\n    <tr>\n      <th>8</th>\n      <td>1548</td>\n      <td>1</td>\n      <td>1548</td>\n      <td>上海</td>\n      <td>聚玩堂上海龙之梦店</td>\n      <td>聚玩堂上海龙之梦店</td>\n      <td>上海市长宁区长宁路龙之梦购物中心五楼</td>\n      <td>[31.218704, 121.41713]</td>\n      <td>58.625020</td>\n    </tr>\n    <tr>\n      <th>9</th>\n      <td>1220</td>\n      <td>2</td>\n      <td>1220</td>\n      <td>上海</td>\n      <td>天天玩上海徐汇汇银广场店</td>\n      <td>天天玩上海徐汇汇银广场店</td>\n      <td>上海市徐汇区华山路2088号汇银广场南楼7M层天天玩</td>\n      <td>[31.197422, 121.4369]</td>\n      <td>81.244969</td>\n    </tr>\n    <tr>\n      <th>10</th>\n      <td>1272</td>\n      <td>2</td>\n      <td>1272</td>\n      <td>上海</td>\n      <td>风云再起上海维璟广场店</td>\n      <td>风云再起上海维璟广场店</td>\n      <td>上海市闵行区维璟广场四楼风云再起</td>\n      <td>[31.130926, 121.363716]</td>\n      <td>87.980457</td>\n    </tr>\n    <tr>\n      <th>11</th>\n      <td>1269</td>\n      <td>1</td>\n      <td>1269</td>\n      <td>上海</td>\n      <td>汤姆熊欢乐世界上海日月光店</td>\n      <td>汤姆熊欢乐世界上海日月光店</td>\n      <td>上海市徐汇区漕宝路33号徐汇日月光中心L4-51号</td>\n      <td>[31.168842, 121.4319]</td>\n      <td>88.757164</td>\n    </tr>\n    <tr>\n      <th>12</th>\n      <td>1700</td>\n      <td>4</td>\n      <td>1700</td>\n      <td>上海</td>\n      <td>风云再起上海宝山日月光店</td>\n      <td>风云再起上海宝山日月光店</td>\n      <td>上海市宝山区沪太路1933号日月光中心三层</td>\n      <td>[31.29285, 121.418]</td>\n      <td>95.027199</td>\n    </tr>\n    <tr>\n      <th>13</th>\n      <td>1702</td>\n      <td>4</td>\n      <td>1702</td>\n      <td>上海</td>\n      <td>朗玩上海宝山日月光店</td>\n      <td>朗玩上海宝山日月光店</td>\n      <td>上海市宝山区沪太路1933号日月光中心三楼朗玩娱乐中心</td>\n      <td>[31.29285, 121.418]</td>\n      <td>95.027199</td>\n    </tr>\n    <tr>\n      <th>14</th>\n      <td>1578</td>\n      <td>1</td>\n      <td>1578</td>\n      <td>上海</td>\n      <td>汤姆熊上海闵行南方店</td>\n      <td>汤姆熊上海闵行南方店</td>\n      <td>上海市闽行区沪闵路7388号南方商城一区五楼汤姆熊</td>\n      <td>[31.130981, 121.39989]</td>\n      <td>97.038480</td>\n    </tr>\n  </tbody>\n</table>']]
+Sat Jan 15 17:02:05 2022established a connection from:('127.0.0.1', 36014)
+Sat Jan 15 17:02:05 2022received from clinet: 谢谢
+Sat Jan 15 17:02:05 2022send to client:['please go on']
+Sat Jan 15 17:13:00 2022established a connection from:('127.0.0.1', 36242)
+Sat Jan 15 17:13:00 2022received from clinet: hi?
+Sat Jan 15 17:13:00 2022send to client:['hi ?... not very important for me...']
+Sat Jan 15 17:20:41 2022Server started listening...
+Sat Jan 15 17:20:54 2022established a connection from:('127.0.0.1', 36406)
+Sat Jan 15 17:20:54 2022received from clinet: a
+Sat Jan 15 17:20:54 2022send to client:['a?']
+Sat Jan 15 17:20:57 2022established a connection from:('127.0.0.1', 36408)
+Sat Jan 15 17:20:57 2022received from clinet: ???
+Sat Jan 15 17:20:57 2022send to client:[' ?... not very important for me...']
+Sat Jan 15 17:28:52 2022Server started listening...
+Sat Jan 15 17:29:00 2022established a connection from:('127.0.0.1', 36566)
+Sat Jan 15 17:29:00 2022received from clinet: a
+Sat Jan 15 17:29:00 2022send to client:["that's cool"]
+Sat Jan 15 17:29:03 2022established a connection from:('127.0.0.1', 36570)
+Sat Jan 15 17:29:03 2022received from clinet: no
+Sat Jan 15 17:29:03 2022send to client:['I see.']
+Sat Jan 15 17:29:05 2022established a connection from:('127.0.0.1', 36572)
+Sat Jan 15 17:29:05 2022received from clinet: a 
+Sat Jan 15 17:29:05 2022send to client:["that's cool"]
+Sat Jan 15 17:29:07 2022established a connection from:('127.0.0.1', 36578)
+Sat Jan 15 17:29:07 2022received from clinet: hi
+Sat Jan 15 17:29:07 2022send to client:['hi!']
+Sat Jan 15 17:29:10 2022established a connection from:('127.0.0.1', 36580)
+Sat Jan 15 17:29:10 2022received from clinet: hi?
+Sat Jan 15 17:29:10 2022send to client:['hi ?... not very important for me...']
+Sat Jan 15 17:29:13 2022established a connection from:('127.0.0.1', 36582)
+Sat Jan 15 17:29:13 2022received from clinet: hello
+Sat Jan 15 17:29:13 2022send to client:['hello!']
+Sat Jan 15 17:29:15 2022established a connection from:('127.0.0.1', 36584)
+Sat Jan 15 17:29:15 2022received from clinet: maimai
+Sat Jan 15 17:29:16 2022send to client:['这个功能很慢（之后会改），请务必耐心等待不要狂暴轰入。总之先输入【省/直辖市】吧：625']
+Sat Jan 15 17:29:30 2022established a connection from:('127.0.0.1', 36590)
+Sat Jan 15 17:29:30 2022received from clinet: 上海
+Sat Jan 15 17:30:48 2022send to client:['接下来的步骤很慢还请耐心等待！那么，详细的地址是?：']
+Sat Jan 15 17:31:04 2022established a connection from:('127.0.0.1', 36702)
+Sat Jan 15 17:31:04 2022received from clinet: 上海市浦东新区东方路1800弄
+Sat Jan 15 17:31:06 2022send to client:[['到上海市浦东新区东方路1800弄最近的maimaiDX排序如下：', '<table border="1" class="dataframe data">\n  <thead>\n    <tr style="text-align: right;">\n      <th></th>\n      <th>placeId</th>\n      <th>machineCount</th>\n      <th>id</th>\n      <th>province</th>\n      <th>arcadeName</th>\n      <th>mall</th>\n      <th>address</th>\n      <th>coordinate</th>\n      <th>dis_to_target</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>0</th>\n      <td>1704</td>\n      <td>1</td>\n      <td>1704</td>\n      <td>上海</td>\n      <td>风云再起上海龙阳广场店</td>\n      <td>风云再起上海龙阳广场店</td>\n      <td>上海市浦东新区龙阳路2000号2楼201室风云再起</td>\n      <td>[31.202961, 121.556946]</td>\n      <td>36.561278</td>\n    </tr>\n    <tr>\n      <th>1</th>\n      <td>1267</td>\n      <td>1</td>\n      <td>1267</td>\n      <td>上海</td>\n      <td>汤姆熊上海正大广场店</td>\n      <td>汤姆熊上海正大广场店</td>\n      <td>上海市浦东新区陆家嘴西路168号正大广场2楼汤姆熊</td>\n      <td>[31.237034, 121.49966]</td>\n      <td>38.362917</td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td>1006</td>\n      <td>3</td>\n      <td>1006</td>\n      <td>上海</td>\n      <td>风云再起上海店</td>\n      <td>风云再起上海店</td>\n      <td>上海市黄浦区人民大道221号迪美广场负一楼227-229#</td>\n      <td>[31.228682, 121.47355]</td>\n      <td>52.621669</td>\n    </tr>\n    <tr>\n      <th>3</th>\n      <td>1376</td>\n      <td>1</td>\n      <td>1376</td>\n      <td>上海</td>\n      <td>汤姆熊上海旭辉广场店</td>\n      <td>汤姆熊上海旭辉广场店</td>\n      <td>上海市浦东新区张扬路2389弄2号旭辉广场4F-1B汤姆熊</td>\n      <td>[31.24244, 121.5598]</td>\n      <td>54.481855</td>\n    </tr>\n    <tr>\n      <th>4</th>\n      <td>1268</td>\n      <td>1</td>\n      <td>1268</td>\n      <td>上海</td>\n      <td>汤姆熊上海大悦城店</td>\n      <td>汤姆熊上海大悦城店</td>\n      <td>上海市静安区西藏北路166号大悦城南座601-605室</td>\n      <td>[31.24289, 121.47277]</td>\n      <td>61.023337</td>\n    </tr>\n    <tr>\n      <th>5</th>\n      <td>1614</td>\n      <td>1</td>\n      <td>1614</td>\n      <td>上海</td>\n      <td>星际传奇瑞虹天地太阳宫店</td>\n      <td>星际传奇瑞虹天地太阳宫店</td>\n      <td>上海上海市虹口区嘉兴路街道瑞虹路181号</td>\n      <td>[31.264463, 121.498695]</td>\n      <td>63.517484</td>\n    </tr>\n    <tr>\n      <th>6</th>\n      <td>1187</td>\n      <td>6</td>\n      <td>1187</td>\n      <td>上海</td>\n      <td>上海烈火游戏机娱乐有限公司</td>\n      <td>上海烈火游戏机娱乐有限公司</td>\n      <td>上海市静安区江宁路77号4楼</td>\n      <td>[31.229328, 121.455605]</td>\n      <td>69.317277</td>\n    </tr>\n    <tr>\n      <th>7</th>\n      <td>1249</td>\n      <td>4</td>\n      <td>1249</td>\n      <td>上海</td>\n      <td>风云再起上海长泰广场店</td>\n      <td>风云再起上海长泰广场店</td>\n      <td>上海市浦东新区外高桥保税区自由贸易试验区祖冲之路1239弄长泰广场地下一层59-1室风云再起</td>\n      <td>[31.205385, 121.601456]</td>\n      <td>81.028259</td>\n    </tr>\n    <tr>\n      <th>8</th>\n      <td>1220</td>\n      <td>2</td>\n      <td>1220</td>\n      <td>上海</td>\n      <td>天天玩上海徐汇汇银广场店</td>\n      <td>天天玩上海徐汇汇银广场店</td>\n      <td>上海市徐汇区华山路2088号汇银广场南楼7M层天天玩</td>\n      <td>[31.197422, 121.4369]</td>\n      <td>83.853450</td>\n    </tr>\n    <tr>\n      <th>9</th>\n      <td>1565</td>\n      <td>1</td>\n      <td>1565</td>\n      <td>上海</td>\n      <td>企萌电玩上海浦东店</td>\n      <td>企萌电玩上海浦东店</td>\n      <td>上海市浦东新区秀浦路668号3楼303新田360广场康桥店</td>\n      <td>[31.125322, 121.56527]</td>\n      <td>91.237050</td>\n    </tr>\n    <tr>\n      <th>10</th>\n      <td>1479</td>\n      <td>2</td>\n      <td>1479</td>\n      <td>上海</td>\n      <td>汤姆熊上海浦东lalaport店</td>\n      <td>汤姆熊上海浦东lalaport店</td>\n      <td>上海市浦东新区新金桥路738号lalaport(啦啦宝)3楼320汤姆熊欢乐世界</td>\n      <td>[31.250626, 121.60343]</td>\n      <td>94.820123</td>\n    </tr>\n    <tr>\n      <th>11</th>\n      <td>1757</td>\n      <td>1</td>\n      <td>1757</td>\n      <td>上海</td>\n      <td>汤姆熊上海杨浦合生汇店</td>\n      <td>汤姆熊上海杨浦合生汇店</td>\n      <td>上海市杨浦区翔殷路1099号合生汇购物广场2楼L2-16汤姆熊欢乐世界</td>\n      <td>[31.3002, 121.5179]</td>\n      <td>95.453535</td>\n    </tr>\n    <tr>\n      <th>12</th>\n      <td>1269</td>\n      <td>1</td>\n      <td>1269</td>\n      <td>上海</td>\n      <td>汤姆熊欢乐世界上海日月光店</td>\n      <td>汤姆熊欢乐世界上海日月光店</td>\n      <td>上海市徐汇区漕宝路33号徐汇日月光中心L4-51号</td>\n      <td>[31.168842, 121.4319]</td>\n      <td>95.546328</td>\n    </tr>\n    <tr>\n      <th>13</th>\n      <td>1373</td>\n      <td>2</td>\n      <td>1373</td>\n      <td>上海</td>\n      <td>汤姆熊上海百联又一城店</td>\n      <td>汤姆熊上海百联又一城店</td>\n      <td>上海市杨浦区淞沪路8号百联又一城购物中心8楼汤姆熊欢乐世界</td>\n      <td>[31.30175, 121.515335]</td>\n      <td>97.103759</td>\n    </tr>\n    <tr>\n      <th>14</th>\n      <td>1331</td>\n      <td>1</td>\n      <td>1331</td>\n      <td>上海</td>\n      <td>大玩家上海周浦万达店</td>\n      <td>大玩家上海周浦万达店</td>\n      <td>上海市浦东新区周浦镇周浦万达广场二楼大玩家</td>\n      <td>[31.11429, 121.56949]</td>\n      <td>102.933589</td>\n    </tr>\n  </tbody>\n</table>']]
+Sat Jan 15 17:31:27 2022established a connection from:('127.0.0.1', 36712)
+Sat Jan 15 17:31:27 2022received from clinet: 谢谢哩
+Sat Jan 15 17:31:27 2022send to client:['谢谢哩?']
+Sat Jan 15 17:31:32 2022established a connection from:('127.0.0.1', 36716)
+Sat Jan 15 17:31:32 2022received from clinet: 谢谢！
+Sat Jan 15 17:31:32 2022send to client:['i like your idea']
+Sat Jan 15 17:31:43 2022established a connection from:('127.0.0.1', 36722)
+Sat Jan 15 17:31:43 2022received from clinet: arknights
+Sat Jan 15 17:31:43 2022send to client:['想要查找哪位干员的资料？']
+Sat Jan 15 17:31:55 2022established a connection from:('127.0.0.1', 36726)
+Sat Jan 15 17:31:55 2022received from clinet: 爱丽丝
+Sat Jan 15 17:31:56 2022send to client:[['【代号】爱丽丝', '【性别】女', '【战斗经验】没有战斗经验', '【出身地】维多利亚', '【生日】4月2日', '【种族】菲林', '【身高】147cm', '【矿石病感染情况】', '参照医学检测报告，确认为非感染者。']]
+Sat Jan 15 17:32:07 2022established a connection from:('127.0.0.1', 36734)
+Sat Jan 15 17:32:07 2022received from clinet: arknights
+Sat Jan 15 17:32:07 2022send to client:['想要查找哪位干员的资料？']
+Sat Jan 15 17:32:15 2022established a connection from:('127.0.0.1', 36740)
+Sat Jan 15 17:32:15 2022received from clinet: 推王
+Sat Jan 15 17:32:16 2022send to client:[['【代号】推进之王', '【性别】女', '【战斗经验】五年', '【出身地】维多利亚', '【生日】7月10日 ', '【种族】阿斯兰', '【身高】172cm', '【矿石病感染情况】', '参照医学检测报告，确认为非感染者。']]
+Sat Jan 15 17:32:32 2022established a connection from:('127.0.0.1', 36748)
+Sat Jan 15 17:32:32 2022received from clinet: arknights
+Sat Jan 15 17:32:32 2022send to client:['想要查找哪位干员的资料？']
+Sat Jan 15 17:32:41 2022established a connection from:('127.0.0.1', 36754)
+Sat Jan 15 17:32:41 2022received from clinet: 幽灵鲨
+Sat Jan 15 17:32:42 2022send to client:[['【代号】幽灵鲨', '【性别】女', '【战斗经验】七年', '【出身地】阿戈尔', '【生日】7月27日', '【种族】未公开', '【身高】162cm', '【体重】■■kg', '【矿石病感染情况】', '体表无源石结晶分布，但参照医学检测报告，确认为感染者。', '干员幽灵鲨的感染症状较为特殊，需要进行进一步的临床研究。']]
+Sat Jan 15 17:32:55 2022established a connection from:('127.0.0.1', 36762)
+Sat Jan 15 17:32:55 2022received from clinet: arknights
+Sat Jan 15 17:32:55 2022send to client:['想要查找哪位干员的资料？']
+Sat Jan 15 17:33:04 2022established a connection from:('127.0.0.1', 36768)
+Sat Jan 15 17:33:04 2022received from clinet: 斯卡蒂
+Sat Jan 15 17:33:06 2022send to client:[['【代号】斯卡蒂', '【性别】女', '【战斗经验】十三年', '【出身地】阿戈尔', '【生日】3月7日', '【种族】未公开', '【身高】166cm', '【体重】■■kg', '【矿石病感染情况】', '参照医学检测报告，确认为非感染者。']]
+Sat Jan 15 17:33:13 2022established a connection from:('127.0.0.1', 36776)
+Sat Jan 15 17:33:13 2022received from clinet: arknights
+Sat Jan 15 17:33:13 2022send to client:['想要查找哪位干员的资料？']
+Sat Jan 15 17:33:21 2022established a connection from:('127.0.0.1', 36780)
+Sat Jan 15 17:33:21 2022received from clinet: 浊心斯卡蒂
+Sat Jan 15 17:33:24 2022send to client:[['【代号】斯卡蒂', '【性别】女', '【战斗经验】——', '【出身地】阿戈尔', '【生日】3月7日', '【种族】未公开', '【身高】166cm', '【矿石病感染情况】', '参照医学检测报告，确认为非感染者。', '以下讨论总结，皆基于对当事人细胞增殖状况的观察与计算。']]
+Sat Jan 15 17:33:41 2022established a connection from:('127.0.0.1', 36790)
+Sat Jan 15 17:33:41 2022received from clinet: 谢啦
+Sat Jan 15 17:33:41 2022send to client:['谢啦?']
+Sat Jan 15 17:33:48 2022established a connection from:('127.0.0.1', 36794)
+Sat Jan 15 17:33:48 2022received from clinet: 嘎嘎
+Sat Jan 15 17:33:48 2022send to client:['please go on']
+Sat Jan 15 17:56:34 2022established a connection from:('127.0.0.1', 37224)
+Sat Jan 15 17:56:34 2022received from clinet: hi
+Sat Jan 15 17:56:34 2022send to client:['hi!']
+Sat Jan 15 17:56:51 2022established a connection from:('127.0.0.1', 37234)
+Sat Jan 15 17:56:51 2022received from clinet: arknights
+Sat Jan 15 17:56:51 2022send to client:['想要查找哪位干员的资料？']
+Sat Jan 15 17:57:00 2022established a connection from:('127.0.0.1', 37238)
+Sat Jan 15 17:57:00 2022received from clinet: 年
+Sat Jan 15 17:57:01 2022send to client:[['【代号】年', '【性别】女', '【战斗经验】未公开', '【出身地】炎', '【生日】9月9日', '【种族】未公开', '【身高】165cm', '【矿石病感染情况】', '未公开']]
+Sat Jan 15 18:19:09 2022established a connection from:('127.0.0.1', 37668)
+Sat Jan 15 18:19:09 2022received from clinet: arknights
+Sat Jan 15 18:19:09 2022send to client:['想要查找哪位干员的资料？']
+Sat Jan 15 18:19:21 2022established a connection from:('127.0.0.1', 37672)
+Sat Jan 15 18:19:21 2022received from clinet: 夕
+Sat Jan 15 18:19:23 2022send to client:[['【代号】夕', '【性别】女', '【战斗经验】未公开', '【出身地】炎', '【生日】11月11日', '【种族】未公开', '【身高】162cm', '【矿石病感染情况】', '参照医学检测报告，确认为非感染者。']]
+Sat Jan 15 18:19:29 2022established a connection from:('127.0.0.1', 37680)
+Sat Jan 15 18:19:29 2022received from clinet: 喵
+Sat Jan 15 18:19:29 2022send to client:['please go on']
+Sat Jan 15 18:19:39 2022established a connection from:('127.0.0.1', 37684)
+Sat Jan 15 18:19:39 2022received from clinet: wang
+Sat Jan 15 18:19:39 2022send to client:['wang?']
+Sat Jan 15 18:19:52 2022established a connection from:('127.0.0.1', 37690)
+Sat Jan 15 18:19:52 2022received from clinet: Who is 77?
+Sat Jan 15 18:19:52 2022send to client:['77 ?... not very important for me...']
+Sat Jan 15 18:20:06 2022established a connection from:('127.0.0.1', 37698)
+Sat Jan 15 18:20:06 2022received from clinet: 汪？
+Sat Jan 15 18:20:06 2022send to client:['汪？?']
+Sat Jan 15 18:20:09 2022established a connection from:('127.0.0.1', 37700)
+Sat Jan 15 18:20:09 2022received from clinet: Where is husky
+Sat Jan 15 18:20:09 2022send to client:['where is husky!']
+Sat Jan 15 18:20:31 2022established a connection from:('127.0.0.1', 37708)
+Sat Jan 15 18:20:31 2022received from clinet: 哈哈is very important for me
+Sat Jan 15 18:20:31 2022send to client:['哈哈is very important for me?']
+Sat Jan 15 18:20:32 2022established a connection from:('127.0.0.1', 37710)
+Sat Jan 15 18:20:32 2022received from clinet: what are you doing?
+Sat Jan 15 18:20:32 2022send to client:['doing ?... not very important for me...']
+Sat Jan 15 18:20:49 2022established a connection from:('127.0.0.1', 37716)
+Sat Jan 15 18:20:49 2022received from clinet: arknights
+Sat Jan 15 18:20:49 2022send to client:['想要查找哪位干员的资料？']
+Sat Jan 15 18:21:24 2022established a connection from:('127.0.0.1', 37742)
+Sat Jan 15 18:21:24 2022received from clinet: 乌有
+Sat Jan 15 18:21:25 2022send to client:[['【代号】乌有', '【性别】男', '【战斗经验】七年', '【出身地】炎', '【生日】1月13日', '【种族】黎博利', '【身高】187cm', '【矿石病感染情况】', '参照医学检测报告，确认为非感染者。']]
+Sat Jan 15 18:21:40 2022established a connection from:('127.0.0.1', 37764)
+Sat Jan 15 18:21:40 2022received from clinet: Why Touka?
+Sat Jan 15 18:21:40 2022send to client:['touka ?... not very important for me...']
+Sat Jan 15 18:21:54 2022established a connection from:('127.0.0.1', 37770)
+Sat Jan 15 18:21:54 2022received from clinet: interesting
+Sat Jan 15 18:21:54 2022send to client:['interesting?']
+Sat Jan 15 18:22:32 2022established a connection from:('127.0.0.1', 37784)
+Sat Jan 15 18:22:32 2022received from clinet: Interesting!
+Sat Jan 15 18:22:32 2022send to client:['interesting!!']
+Tue Jan 18 07:13:28 2022established a connection from:('127.0.0.1', 51882)
+Tue Jan 18 07:13:28 2022received from clinet: h！
+Tue Jan 18 07:13:28 2022send to client:['h！!']
+Tue Jan 18 07:13:40 2022established a connection from:('127.0.0.1', 51886)
+Tue Jan 18 07:13:40 2022received from clinet: clear!
+Tue Jan 18 07:13:40 2022send to client:['clear!?']
+Tue Jan 18 07:14:07 2022established a connection from:('127.0.0.1', 51896)
+Tue Jan 18 07:14:07 2022received from clinet: maimai 
+Tue Jan 18 07:14:08 2022send to client:['这个功能很慢（之后会改），请务必耐心等待不要狂暴轰入。总之先输入【省/直辖市】吧：638']
+Tue Jan 18 07:14:15 2022established a connection from:('127.0.0.1', 51900)
+Tue Jan 18 07:14:15 2022received from clinet: 浙江
+Tue Jan 18 07:15:46 2022send to client:['接下来的步骤很慢还请耐心等待！那么，详细的地址是?：']
+Tue Jan 18 07:16:06 2022established a connection from:('127.0.0.1', 52020)
+Tue Jan 18 07:16:06 2022received from clinet: 杭州市龙翔桥地铁站
+Tue Jan 18 07:16:08 2022send to client:[['到杭州市龙翔桥地铁站最近的maimaiDX排序如下：', '<table border="1" class="dataframe data">\n  <thead>\n    <tr style="text-align: right;">\n      <th></th>\n      <th>placeId</th>\n      <th>machineCount</th>\n      <th>id</th>\n      <th>province</th>\n      <th>arcadeName</th>\n      <th>mall</th>\n      <th>address</th>\n      <th>coordinate</th>\n      <th>dis_to_target</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>0</th>\n      <td>1089</td>\n      <td>2</td>\n      <td>1089</td>\n      <td>浙江</td>\n      <td>神采飞扬杭州湖滨银泰店</td>\n      <td>神采飞扬杭州湖滨银泰店</td>\n      <td>浙江省杭州市上城区延安路湖滨IN77C区D区负一楼</td>\n      <td>[30.243793, 120.16501]</td>\n      <td>11.557375</td>\n    </tr>\n    <tr>\n      <th>1</th>\n      <td>1450</td>\n      <td>1</td>\n      <td>1450</td>\n      <td>浙江</td>\n      <td>木马王国杭州江干店</td>\n      <td>木马王国杭州江干店</td>\n      <td>浙江省杭州市江干区新塘路108号天虹购物中心B座3楼木马王国</td>\n      <td>[30.264376, 120.208466]</td>\n      <td>45.167553</td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td>1252</td>\n      <td>1</td>\n      <td>1252</td>\n      <td>浙江</td>\n      <td>量子空间杭州东站西广场C座店</td>\n      <td>量子空间杭州江干火车东站店</td>\n      <td>浙江省杭州市江干区火车东站西广场C座一层量子空间未来主题乐园</td>\n      <td>[30.290932, 120.208565]</td>\n      <td>56.876387</td>\n    </tr>\n    <tr>\n      <th>3</th>\n      <td>1181</td>\n      <td>1</td>\n      <td>1181</td>\n      <td>浙江</td>\n      <td>第一回合动漫游戏乐园</td>\n      <td>第一回合动漫游戏乐园</td>\n      <td>浙江省杭州市滨江区江南大道228号星光国际2号楼2楼</td>\n      <td>[30.206957, 120.2089]</td>\n      <td>65.848456</td>\n    </tr>\n    <tr>\n      <th>4</th>\n      <td>1128</td>\n      <td>2</td>\n      <td>1128</td>\n      <td>浙江</td>\n      <td>风云再起杭州店</td>\n      <td>风云再起杭州店</td>\n      <td>浙江省杭州市下城区新天地购物中心五楼风云再起</td>\n      <td>[30.323193, 120.179405]</td>\n      <td>69.549069</td>\n    </tr>\n    <tr>\n      <th>5</th>\n      <td>1430</td>\n      <td>2</td>\n      <td>1430</td>\n      <td>浙江</td>\n      <td>杭州神采飞扬城西银泰第一回合店</td>\n      <td>杭州神采飞扬城西银泰第一回合店</td>\n      <td>浙江省杭州市拱墅区丰潭路城西银泰城三楼第一回合</td>\n      <td>[30.299023, 120.103905]</td>\n      <td>74.478091</td>\n    </tr>\n    <tr>\n      <th>6</th>\n      <td>1619</td>\n      <td>1</td>\n      <td>1619</td>\n      <td>浙江</td>\n      <td>菲游乐杭州丁桥龙湖天街店</td>\n      <td>菲游乐杭州丁桥龙湖天街店</td>\n      <td>浙江省杭州市江干区丁兰街道丁城路515号A幢4楼02号</td>\n      <td>[30.337631, 120.2188]</td>\n      <td>98.762995</td>\n    </tr>\n    <tr>\n      <th>7</th>\n      <td>1602</td>\n      <td>2</td>\n      <td>1602</td>\n      <td>浙江</td>\n      <td>都市玩家杭州萧山宝龙店</td>\n      <td>都市玩家杭州萧山宝龙店</td>\n      <td>浙江省杭州市萧山区建设一路宝龙城市广场3楼都市玩家</td>\n      <td>[30.194572, 120.25353]</td>\n      <td>108.017838</td>\n    </tr>\n    <tr>\n      <th>8</th>\n      <td>1724</td>\n      <td>1</td>\n      <td>1724</td>\n      <td>浙江</td>\n      <td>星际传奇杭州萧山银泰店</td>\n      <td>星际传奇杭州萧山银泰店</td>\n      <td>浙江省杭州市萧山区新塘街道通惠南路667号银泰百货3楼星际传奇</td>\n      <td>[30.160208, 120.28679]</td>\n      <td>155.149908</td>\n    </tr>\n    <tr>\n      <th>9</th>\n      <td>1749</td>\n      <td>1</td>\n      <td>1749</td>\n      <td>浙江</td>\n      <td>第一回合杭州滨江宝龙店</td>\n      <td>第一回合杭州滨江宝龙店</td>\n      <td>浙江省杭州市滨江区宝龙广场三楼第一回合</td>\n      <td>[30.27877, 119.98663]</td>\n      <td>179.126196</td>\n    </tr>\n    <tr>\n      <th>10</th>\n      <td>1666</td>\n      <td>3</td>\n      <td>1666</td>\n      <td>浙江</td>\n      <td>第一回合杭州金沙印象城</td>\n      <td>第一回合杭州金沙印象城</td>\n      <td>浙江省杭州经济技术开发区下沙街道金沙大道97号金沙印象城</td>\n      <td>[30.308504, 120.33618]</td>\n      <td>180.000500</td>\n    </tr>\n    <tr>\n      <th>11</th>\n      <td>1646</td>\n      <td>2</td>\n      <td>1646</td>\n      <td>浙江</td>\n      <td>星际传奇杭州萧山奥体店</td>\n      <td>星际传奇杭州萧山奥体店</td>\n      <td>浙江省杭州市萧山奥体印象城星际传奇</td>\n      <td>[30.161997, 120.3814]</td>\n      <td>236.387535</td>\n    </tr>\n    <tr>\n      <th>12</th>\n      <td>1721</td>\n      <td>2</td>\n      <td>1721</td>\n      <td>浙江</td>\n      <td>星河部落海宁长安奥特莱斯店</td>\n      <td>星河部落海宁长安奥特莱斯店</td>\n      <td>浙江省海宁市长安镇启潮路199号奥特莱斯二期1号楼3楼E301-E314星河部落电玩城</td>\n      <td>[30.362638, 120.39859]</td>\n      <td>257.775386</td>\n    </tr>\n    <tr>\n      <th>13</th>\n      <td>1519</td>\n      <td>1</td>\n      <td>1519</td>\n      <td>浙江</td>\n      <td>大玩家杭州富阳万达店</td>\n      <td>大玩家杭州富阳万达店</td>\n      <td>浙江省杭州市富阳区万达广场二楼大玩家</td>\n      <td>[29.995054, 119.839836]</td>\n      <td>415.886629</td>\n    </tr>\n    <tr>\n      <th>14</th>\n      <td>1581</td>\n      <td>1</td>\n      <td>1581</td>\n      <td>浙江</td>\n      <td>秀斗城邦绍兴越城店</td>\n      <td>秀斗城邦绍兴越城店</td>\n      <td>浙江省绍兴市越城区金帝银泰城地下一层秀斗城邦</td>\n      <td>[29.985922, 120.57736]</td>\n      <td>493.219718</td>\n    </tr>\n  </tbody>\n</table>']]
+Tue Jan 18 07:16:37 2022established a connection from:('127.0.0.1', 52034)
+Tue Jan 18 07:16:37 2022received from clinet: 谢谢
+Tue Jan 18 07:16:37 2022send to client:['谢谢?']
+Tue Jan 18 07:16:55 2022established a connection from:('127.0.0.1', 52042)
+Tue Jan 18 07:16:55 2022received from clinet: clear!
+Tue Jan 18 07:16:55 2022send to client:['clear!!']
