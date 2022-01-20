@@ -169,3 +169,26 @@ Tue Jan 18 07:16:37 2022send to client:['谢谢?']
 Tue Jan 18 07:16:55 2022established a connection from:('127.0.0.1', 52042)
 Tue Jan 18 07:16:55 2022received from clinet: clear!
 Tue Jan 18 07:16:55 2022send to client:['clear!!']
+Thu Jan 20 07:28:14 2022Server started listening...
+Thu Jan 20 07:29:58 2022established a connection from:('127.0.0.1', 41588)
+Thu Jan 20 07:29:58 2022received from clinet: 11
+Thu Jan 20 07:29:58 2022send to client:['11?']
+Thu Jan 20 07:30:10 2022established a connection from:('127.0.0.1', 41602)
+Thu Jan 20 07:30:10 2022received from clinet: maimai
+Thu Jan 20 07:34:50 2022Server started listening...
+Thu Jan 20 07:34:58 2022Server started listening...
+Thu Jan 20 07:35:14 2022established a connection from:('127.0.0.1', 44230)
+Thu Jan 20 07:35:14 2022received from clinet: aaa
+Thu Jan 20 07:35:14 2022send to client:['aaa?']
+Thu Jan 20 07:35:16 2022established a connection from:('127.0.0.1', 44238)
+Thu Jan 20 07:35:16 2022received from clinet: maimai
+Thu Jan 20 07:35:16 2022send to client:['请告诉我你现在的位置，我帮你看看附近有哪些舞萌dx']
+Thu Jan 20 07:35:54 2022established a connection from:('127.0.0.1', 44656)
+Thu Jan 20 07:35:54 2022received from clinet: 浙江省杭州市秋溢路228号
+Thu Jan 20 07:37:11 2022Server started listening...
+Thu Jan 20 07:37:22 2022established a connection from:('127.0.0.1', 44928)
+Thu Jan 20 07:37:22 2022received from clinet: maimai
+Thu Jan 20 07:37:22 2022send to client:['请告诉我你现在的位置，我帮你看看附近有哪些舞萌dx']
+Thu Jan 20 07:37:39 2022established a connection from:('127.0.0.1', 44980)
+Thu Jan 20 07:37:39 2022received from clinet: 上海市普陀区中山北路3300号
+Thu Jan 20 07:37:41 2022send to client:[['部分地图上找不到坐标的没计入。到上海市普陀区中山北路3300号最近的10个maimaiDX机厅排序如下：', '<table border="1" class="dataframe data">\n  <thead>\n    <tr style="text-align: right;">\n      <th></th>\n      <th>placeId</th>\n      <th>machineCount</th>\n      <th>id</th>\n      <th>province</th>\n      <th>arcadeName</th>\n      <th>mall</th>\n      <th>address</th>\n      <th>coordinate</th>\n      <th>dis_to_target</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>0</th>\n      <td>1098</td>\n      <td>4</td>\n      <td>1098</td>\n      <td>上海</td>\n      <td>上海JOYPOLIS世嘉都市乐园</td>\n      <td>上海JOYPOLIS世嘉都市乐园</td>\n      <td>上海市普陀区中山北路3300号月星环球港四楼世嘉都市乐园</td>\n      <td>[31.234758, 121.41331]</td>\n      <td>0.000000</td>\n    </tr>\n    <tr>\n      <th>1</th>\n      <td>1527</td>\n      <td>1</td>\n      <td>1527</td>\n      <td>上海</td>\n      <td>汤姆熊上海环球港店</td>\n      <td>汤姆熊上海环球港店</td>\n      <td>上海市中山北路3300号环球港购物中心3楼3166室汤姆熊欢乐世界</td>\n      <td>[31.23483, 121.413086]</td>\n      <td>0.235287</td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td>1288</td>\n      <td>2</td>\n      <td>1288</td>\n      <td>上海</td>\n      <td>汤姆熊上海长宁龙之梦店</td>\n      <td>汤姆熊上海长宁龙之梦店</td>\n      <td>上海市长宁区长宁路1810号龙之梦购物中心6楼汤姆熊欢乐世界</td>\n      <td>[31.218987, 121.416504]</td>\n      <td>16.091180</td>\n    </tr>\n    <tr>\n      <th>3</th>\n      <td>1548</td>\n      <td>1</td>\n      <td>1548</td>\n      <td>上海</td>\n      <td>聚玩堂上海龙之梦店</td>\n      <td>聚玩堂上海龙之梦店</td>\n      <td>上海市长宁区长宁路龙之梦购物中心五楼</td>\n      <td>[31.218704, 121.41713]</td>\n      <td>16.502222</td>\n    </tr>\n    <tr>\n      <th>4</th>\n      <td>1195</td>\n      <td>2</td>\n      <td>1195</td>\n      <td>上海</td>\n      <td>风云再起上海长风大悦城店</td>\n      <td>风云再起上海长风大悦城店</td>\n      <td>上海市普陀区长风新村街道大渡河路168弄136号长风大悦城室外商场3楼L3-13室风云再起</td>\n      <td>[31.221907, 121.39522]</td>\n      <td>22.190005</td>\n    </tr>\n    <tr>\n      <th>5</th>\n      <td>1728</td>\n      <td>1</td>\n      <td>1728</td>\n      <td>上海</td>\n      <td>奥玩空间上海ESP店</td>\n      <td>奥玩空间上海ESP店</td>\n      <td>上海市普陀区同普路428号2楼奥玩空间</td>\n      <td>[31.227362, 121.386444]</td>\n      <td>27.865440</td>\n    </tr>\n    <tr>\n      <th>6</th>\n      <td>1293</td>\n      <td>2</td>\n      <td>1293</td>\n      <td>上海</td>\n      <td>风云再起上海中环百联店</td>\n      <td>风云再起上海中环百联店</td>\n      <td>上海市普陀区真光路1288号中环百联3楼风云再起</td>\n      <td>[31.24578, 121.383125]</td>\n      <td>32.134385</td>\n    </tr>\n    <tr>\n      <th>7</th>\n      <td>1187</td>\n      <td>6</td>\n      <td>1187</td>\n      <td>上海</td>\n      <td>上海烈火游戏机娱乐有限公司</td>\n      <td>上海烈火游戏机娱乐有限公司</td>\n      <td>上海市静安区江宁路77号4楼</td>\n      <td>[31.229328, 121.455605]</td>\n      <td>42.642138</td>\n    </tr>\n    <tr>\n      <th>8</th>\n      <td>1220</td>\n      <td>2</td>\n      <td>1220</td>\n      <td>上海</td>\n      <td>天天玩上海徐汇汇银广场店</td>\n      <td>天天玩上海徐汇汇银广场店</td>\n      <td>上海市徐汇区华山路2088号汇银广场南楼7M层天天玩</td>\n      <td>[31.197422, 121.4369]</td>\n      <td>44.164069</td>\n    </tr>\n    <tr>\n      <th>9</th>\n      <td>1809</td>\n      <td>1</td>\n      <td>1809</td>\n      <td>上海</td>\n      <td>大玩家上海临港万达店</td>\n      <td>大玩家上海临港万达店</td>\n      <td>上海市浦东新区泥城镇临港万达广场二楼大玩家</td>\n      <td>[31.22222000000005, 121.45806000000005]</td>\n      <td>46.473261</td>\n    </tr>\n    <tr>\n      <th>10</th>\n      <td>1700</td>\n      <td>4</td>\n      <td>1700</td>\n      <td>上海</td>\n      <td>风云再起上海宝山日月光店</td>\n      <td>风云再起上海宝山日月光店</td>\n      <td>上海市宝山区沪太路1933号日月光中心三层</td>\n      <td>[31.29285, 121.418]</td>\n      <td>58.281014</td>\n    </tr>\n  </tbody>\n</table>']]

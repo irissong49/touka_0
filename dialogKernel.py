@@ -84,7 +84,7 @@ class nearestMaimai():
         
         #search geo coordinate 
         target=geocoder.arcgis(address).latlng
-        if type(target)==NoneType:
+        if type(target)==type(None):
             return(("我连接的数据库找不到这个地方，请换个详细点的地址试试。",self.nearestMaimai_0))
         
         targetx,targety=target
@@ -262,7 +262,7 @@ def main():
     writelog("Server started listening...")
     registedEvent=-1
     
-
+    maimai=nearestMaimai()
 
     #TODO:need to deal more with this part
 
