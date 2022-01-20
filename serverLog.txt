@@ -192,3 +192,60 @@ Thu Jan 20 07:37:22 2022send to client:['请告诉我你现在的位置，我帮
 Thu Jan 20 07:37:39 2022established a connection from:('127.0.0.1', 44980)
 Thu Jan 20 07:37:39 2022received from clinet: 上海市普陀区中山北路3300号
 Thu Jan 20 07:37:41 2022send to client:[['部分地图上找不到坐标的没计入。到上海市普陀区中山北路3300号最近的10个maimaiDX机厅排序如下：', '<table border="1" class="dataframe data">\n  <thead>\n    <tr style="text-align: right;">\n      <th></th>\n      <th>placeId</th>\n      <th>machineCount</th>\n      <th>id</th>\n      <th>province</th>\n      <th>arcadeName</th>\n      <th>mall</th>\n      <th>address</th>\n      <th>coordinate</th>\n      <th>dis_to_target</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>0</th>\n      <td>1098</td>\n      <td>4</td>\n      <td>1098</td>\n      <td>上海</td>\n      <td>上海JOYPOLIS世嘉都市乐园</td>\n      <td>上海JOYPOLIS世嘉都市乐园</td>\n      <td>上海市普陀区中山北路3300号月星环球港四楼世嘉都市乐园</td>\n      <td>[31.234758, 121.41331]</td>\n      <td>0.000000</td>\n    </tr>\n    <tr>\n      <th>1</th>\n      <td>1527</td>\n      <td>1</td>\n      <td>1527</td>\n      <td>上海</td>\n      <td>汤姆熊上海环球港店</td>\n      <td>汤姆熊上海环球港店</td>\n      <td>上海市中山北路3300号环球港购物中心3楼3166室汤姆熊欢乐世界</td>\n      <td>[31.23483, 121.413086]</td>\n      <td>0.235287</td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td>1288</td>\n      <td>2</td>\n      <td>1288</td>\n      <td>上海</td>\n      <td>汤姆熊上海长宁龙之梦店</td>\n      <td>汤姆熊上海长宁龙之梦店</td>\n      <td>上海市长宁区长宁路1810号龙之梦购物中心6楼汤姆熊欢乐世界</td>\n      <td>[31.218987, 121.416504]</td>\n      <td>16.091180</td>\n    </tr>\n    <tr>\n      <th>3</th>\n      <td>1548</td>\n      <td>1</td>\n      <td>1548</td>\n      <td>上海</td>\n      <td>聚玩堂上海龙之梦店</td>\n      <td>聚玩堂上海龙之梦店</td>\n      <td>上海市长宁区长宁路龙之梦购物中心五楼</td>\n      <td>[31.218704, 121.41713]</td>\n      <td>16.502222</td>\n    </tr>\n    <tr>\n      <th>4</th>\n      <td>1195</td>\n      <td>2</td>\n      <td>1195</td>\n      <td>上海</td>\n      <td>风云再起上海长风大悦城店</td>\n      <td>风云再起上海长风大悦城店</td>\n      <td>上海市普陀区长风新村街道大渡河路168弄136号长风大悦城室外商场3楼L3-13室风云再起</td>\n      <td>[31.221907, 121.39522]</td>\n      <td>22.190005</td>\n    </tr>\n    <tr>\n      <th>5</th>\n      <td>1728</td>\n      <td>1</td>\n      <td>1728</td>\n      <td>上海</td>\n      <td>奥玩空间上海ESP店</td>\n      <td>奥玩空间上海ESP店</td>\n      <td>上海市普陀区同普路428号2楼奥玩空间</td>\n      <td>[31.227362, 121.386444]</td>\n      <td>27.865440</td>\n    </tr>\n    <tr>\n      <th>6</th>\n      <td>1293</td>\n      <td>2</td>\n      <td>1293</td>\n      <td>上海</td>\n      <td>风云再起上海中环百联店</td>\n      <td>风云再起上海中环百联店</td>\n      <td>上海市普陀区真光路1288号中环百联3楼风云再起</td>\n      <td>[31.24578, 121.383125]</td>\n      <td>32.134385</td>\n    </tr>\n    <tr>\n      <th>7</th>\n      <td>1187</td>\n      <td>6</td>\n      <td>1187</td>\n      <td>上海</td>\n      <td>上海烈火游戏机娱乐有限公司</td>\n      <td>上海烈火游戏机娱乐有限公司</td>\n      <td>上海市静安区江宁路77号4楼</td>\n      <td>[31.229328, 121.455605]</td>\n      <td>42.642138</td>\n    </tr>\n    <tr>\n      <th>8</th>\n      <td>1220</td>\n      <td>2</td>\n      <td>1220</td>\n      <td>上海</td>\n      <td>天天玩上海徐汇汇银广场店</td>\n      <td>天天玩上海徐汇汇银广场店</td>\n      <td>上海市徐汇区华山路2088号汇银广场南楼7M层天天玩</td>\n      <td>[31.197422, 121.4369]</td>\n      <td>44.164069</td>\n    </tr>\n    <tr>\n      <th>9</th>\n      <td>1809</td>\n      <td>1</td>\n      <td>1809</td>\n      <td>上海</td>\n      <td>大玩家上海临港万达店</td>\n      <td>大玩家上海临港万达店</td>\n      <td>上海市浦东新区泥城镇临港万达广场二楼大玩家</td>\n      <td>[31.22222000000005, 121.45806000000005]</td>\n      <td>46.473261</td>\n    </tr>\n    <tr>\n      <th>10</th>\n      <td>1700</td>\n      <td>4</td>\n      <td>1700</td>\n      <td>上海</td>\n      <td>风云再起上海宝山日月光店</td>\n      <td>风云再起上海宝山日月光店</td>\n      <td>上海市宝山区沪太路1933号日月光中心三层</td>\n      <td>[31.29285, 121.418]</td>\n      <td>58.281014</td>\n    </tr>\n  </tbody>\n</table>']]
+Thu Jan 20 10:50:28 2022Server started listening...
+Thu Jan 20 10:52:41 2022Server started listening...
+Thu Jan 20 10:53:11 2022established a connection from:('127.0.0.1', 56452)
+Thu Jan 20 10:53:11 2022received from clinet: s
+Thu Jan 20 10:53:11 2022send to client:['s!']
+Thu Jan 20 10:53:26 2022established a connection from:('127.0.0.1', 56462)
+Thu Jan 20 10:53:26 2022received from clinet: sudo -i y1z3K 55**3
+Thu Jan 20 10:53:26 2022send to client:permission denied
+Thu Jan 20 10:55:30 2022Server started listening...
+Thu Jan 20 10:55:33 2022established a connection from:('127.0.0.1', 56512)
+Thu Jan 20 10:55:33 2022received from clinet: hiu
+Thu Jan 20 10:55:33 2022send to client:['please go on']
+Thu Jan 20 10:55:45 2022established a connection from:('127.0.0.1', 56516)
+Thu Jan 20 10:55:45 2022received from clinet: sudo -i y1z3K 55**3
+Thu Jan 20 10:55:45 2022send to client:['Exception:', 'invalid syntax (<string>, line 1)', 'End']
+Thu Jan 20 10:58:34 2022established a connection from:('127.0.0.1', 56652)
+Thu Jan 20 10:58:34 2022received from clinet: sudo -i y0sjk a=3+10;b=3*10;print(a-b)
+Thu Jan 20 10:58:34 2022send to client:['Exception:', 'invalid syntax (<string>, line 1)', 'End']
+Thu Jan 20 11:00:43 2022established a connection from:('127.0.0.1', 56714)
+Thu Jan 20 11:00:43 2022received from clinet: sudo -i y2m print("text")
+Thu Jan 20 11:00:43 2022send to client:['Exception:', 'invalid syntax (<string>, line 1)', 'End']
+Thu Jan 20 11:00:58 2022established a connection from:('127.0.0.1', 56722)
+Thu Jan 20 11:00:58 2022received from clinet: sudo -i 1111 1+1
+Thu Jan 20 11:00:58 2022send to client:permission denied
+Thu Jan 20 11:02:01 2022Server started listening...
+Thu Jan 20 11:02:08 2022established a connection from:('127.0.0.1', 57178)
+Thu Jan 20 11:02:08 2022received from clinet: sudo -i 1111 1+1
+Thu Jan 20 11:02:08 2022send to client:permission denied
+Thu Jan 20 11:02:16 2022established a connection from:('127.0.0.1', 57184)
+Thu Jan 20 11:02:16 2022received from clinet: sudo -i y1z3K 55**3
+Thu Jan 20 11:02:16 2022executing sudo -i y1z3k 55**3
+Thu Jan 20 11:02:16 2022send to client:['Exception:', 'invalid syntax (<string>, line 1)', 'End']
+Thu Jan 20 11:03:23 2022Server started listening...
+Thu Jan 20 11:03:27 2022established a connection from:('127.0.0.1', 57248)
+Thu Jan 20 11:03:27 2022received from clinet: sudo -i y1z3K 55**3
+Thu Jan 20 11:03:27 2022send to client:permission denied
+Thu Jan 20 11:03:34 2022established a connection from:('127.0.0.1', 57260)
+Thu Jan 20 11:03:34 2022received from clinet: sudo -i y1z3K 55**3
+Thu Jan 20 11:04:42 2022Server started listening...
+Thu Jan 20 11:04:48 2022established a connection from:('127.0.0.1', 51630)
+Thu Jan 20 11:04:48 2022received from clinet: sudo -i y1z3K 55**3
+Thu Jan 20 11:04:48 2022executing 55**3
+Thu Jan 20 11:04:48 2022send to client:['Success', 'End']
+Thu Jan 20 11:05:03 2022established a connection from:('127.0.0.1', 51664)
+Thu Jan 20 11:05:03 2022received from clinet: sudo -i y0sjk a=3+10;b=3*10;print(a-b)
+Thu Jan 20 11:05:03 2022executing a=3+10;b=3*10;print(a-b)
+Thu Jan 20 11:05:03 2022send to client:['-17', 'Success', 'End']
+Thu Jan 20 11:14:26 2022Server started listening...
+Thu Jan 20 11:14:31 2022established a connection from:('127.0.0.1', 57742)
+Thu Jan 20 11:14:31 2022received from clinet: hi
+Thu Jan 20 11:14:31 2022send to client:['hi?']
+Thu Jan 20 11:14:35 2022established a connection from:('127.0.0.1', 57752)
+Thu Jan 20 11:14:35 2022received from clinet: enen
+Thu Jan 20 11:14:35 2022send to client:["that's cool"]
+Thu Jan 20 11:14:45 2022established a connection from:('127.0.0.1', 57760)
+Thu Jan 20 11:14:45 2022received from clinet: 静安是低风险吗
+Thu Jan 20 11:14:47 2022send to client:静安区静安寺街道愚园路228号是中风险静安区其他区域是低风险

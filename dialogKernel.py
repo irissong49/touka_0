@@ -3,6 +3,8 @@
 #import re
 #import sys, getopt
 #import os
+from logging import StreamHandler
+from geocoder.locationiq import LocationIQResult
 import requests
 from bs4 import BeautifulSoup
 import math
@@ -18,13 +20,47 @@ import socket
 import os
 import time
 import json
+import sys
 
 HOST='127.0.0.1'
-PORT=50003
+PORT=50007
 
 all_maimai=[]
 search_result=[]
+
 end_word_list=["exit()",":q","-1"]
+pwbook={"q":"asbtw","y":"szmyn","v":"bctl"}
+
+
+
+class redirect:
+#capture standout print
+    def __init__(self):
+        self.content = []
+
+    def write(self,str):
+        if str!='\n':
+            self.content.append(str)
+    def flush(self):
+        self.content = []
+
+
+def passwordCheck(text):
+    split_text=text.split(" ")
+    if len(split_text)!=4:
+        return False
+    text=split_text[2]
+    returntext=split_text[3]
+    k=text[0]
+    i=text[1]
+    v=text[2]
+    try:
+        assert(pwbook[k][eval(i)]==v)
+        assert(v!="-")
+        pwbook[k]=pwbook[k].replace(v,"-")
+    except:
+        return False
+    return returntext
 
 class nearestMaimai():
     def __init__(self):
@@ -246,6 +282,42 @@ def aknz(s):
     reply=filtered_dict2['初始开放'][1:]
     return((reply,-1))
 
+
+def execText(text):
+    text=passwordCheck(text)
+    if text==False:
+        return (("permission denied",-1))
+    writelog("executing "+text)
+    __console = sys.stdout
+    r = redirect()
+    sys.stdout = r
+    try:
+        exec(text)
+        print("Success")
+    except Exception as e:
+        print("Exception:")
+        print(str(e))
+    finally:
+        print("End")
+
+    sys.stdout = __console
+    reply=r.content
+    return ((reply,-1))
+
+def queryCovidRisk(text):
+    headers = {
+                    'Cookie':'OCSSID=4df0bjva6j7ejussu8al3eqo03',
+                    'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+                    '(KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+                }
+    payload = {"": text}
+    url="http://m.sh.bendibao.com/news/yqdengji/?qu="+urlencode(payload)[1:]
+    #url="http://m.bendibao.com/news/yqdengji/city.php"
+    res = requests.get(url,headers = headers)
+    soup = BeautifulSoup(res.content,"html.parser",from_encoding='gb18030')
+    reply = soup.get_text().replace("\n","").split("每日更新")[1].split("防疫工具箱")[0].replace(" ","是")
+    return ((reply,-1))
+
 def writelog(msg):
     fp = open("serverLog.txt",'a')
     try:
@@ -296,6 +368,11 @@ def main():
         elif "arknights" in line:
             reply.append( "想要查找哪位干员的资料？")
             registedEvent=aknz
+        elif "sudo -i" in line:
+            reply,registedEvent=execText(line)
+        elif "风险" in line:
+            reply,registedEvent=queryCovidRisk(line[:2])
+
         #==not the functional modules, start NLP(?)==
         else:
             if "what" in line or "how" in line or "do you" in line or "?" in line:
@@ -329,6 +406,8 @@ def main():
 
 
         writelog("send to client:"+str(reply))
+        if type(reply)==str:
+            reply=[reply]
         conn.sendall(str(len(reply)).encode('utf-8'))
         for rr in reply:
             time.sleep(0.1)

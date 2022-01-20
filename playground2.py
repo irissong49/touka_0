@@ -4,7 +4,7 @@ from flask import Flask, render_template, request
 import socket,time
 
 HOST='127.0.0.1'
-PORT=50003
+PORT=50007
 
 dialog=["Hi, stranger.\n I'm Touka. Talk to me.\n NLP module is not connected yet. But you can ask me things about MaiMai/Arknights."]
 app = Flask(__name__)
