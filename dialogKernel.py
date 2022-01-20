@@ -17,12 +17,14 @@ import random
 import socket
 import os
 import time
+import json
 
 HOST='127.0.0.1'
 PORT=50003
 
 all_maimai=[]
 search_result=[]
+end_word_list=["exit()",":q","-1"]
 
 class nearestMaimai():
     def __init__(self):
@@ -37,16 +39,78 @@ class nearestMaimai():
                     }   
         self.all_maimai=[]
         self.search_result=[]
-
-
-    def nearestMaimai_0(self,s):
-
-
+    def updateJson(self):
+        #request
         res = requests.get(self.url,headers = self.headers)
         soup = BeautifulSoup(res.content,"html.parser",from_encoding='gb18030')
         self.all_maimai=eval(soup.get_text())
+        
+        #dict by province , not used right now but save for future use
+        #TODO: handle overtime error
+        maimai_dict={}
+        for i,maimai in enumerate(all_maimai):
+            print("updating maimai geo data{}/{}".format(i, len(all_maimai)))
+            thisprovince = maimai['province']
+            geo=geocoder.arcgis(maimai['address']).latlng
+            maimai["coordinate"]=geo
+            if thisprovince in maimai_dict.keys():
+                maimai_dict[thisprovince].append(maimai)
+            else:
+                maimai_dict[thisprovince]=[]
+                maimai_dict[thisprovince].append(maimai)
+        #all maimai with geo data
+        maimai_with_geo=[]
+        for k,v in maimai_dict.items():
+            maimai_with_geo+=v
+        #save
+        out_file = open("data/maimai_province_dict.json", "w")
+        json.dump(maimai_dict,out_file)  
+        out_file.close()
+        
+        out_file = open("data/maimai_with_geo.json", "w")
+        json.dump(maimai_dict,out_file)  
+        out_file.close()
+        return
 
-        return(("这个功能很慢（之后会改），请务必耐心等待不要狂暴轰入。总之先输入【省/直辖市】吧："+str(len(self.all_maimai)),self.nearestMaimai_1))
+
+    def nearestMaimai_0(self,address):
+        reply=[]
+        if address in end_word_list:
+            return(("好，那就不查了。",-1))
+        #load data
+        f = open("data/maimai_with_geo.json", "r")
+        maimai_with_geo=json.load(f)
+        f.close()
+        
+        #search geo coordinate 
+        target=geocoder.arcgis(address).latlng
+        if type(target)==NoneType:
+            return(("我连接的数据库找不到这个地方，请换个详细点的地址试试。",self.nearestMaimai_0))
+        
+        targetx,targety=target
+        targetx=targetx*1000
+        targety=targety*1000
+        empty_list=[]
+
+        for i in range(len(maimai_with_geo)):
+            if type(maimai_with_geo[i]['coordinate'])!=list:
+                empty_list.append(maimai_with_geo[i])
+                continue
+            x,y=maimai_with_geo[i]['coordinate']
+            x=1000*x
+            y=1000*y
+            dis=math.sqrt(pow(x-targetx,2)+pow(y-targety,2))
+            maimai_with_geo[i]['dis_to_target']=dis
+            
+        #TODO: check if removed maimai is the same province with target. if yes, keep alert
+        for tmp in empty_list:
+            maimai_with_geo.remove(tmp)
+            #reply.append("{}地图上找不到坐标，没算进去".format(tmp['arcadeName']))
+
+        reply.append("部分地图上找不到坐标的没计入。到{}最近的10个maimaiDX机厅排序如下：".format(address)))
+        distance_ranking=sorted(maimai_with_geo,key=lambda x:x['dis_to_target'])
+        reply.append(pd.DataFrame(distance_ranking[0:11]).to_html(classes='data'))
+        return((reply,-1))
 
 
 
@@ -213,7 +277,7 @@ def main():
 
         #====if there is a registed event====
         if registedEvent!=-1:
-            #TODO:this part doesn't seem good...
+            #TODO:this part doesn't seem neat...
             r,nextEvent=registedEvent(line)
             reply.append(r)
             registedEvent=nextEvent
@@ -224,10 +288,11 @@ def main():
             writelog("===========end-of-this-connection===========")
             break
         elif "maimai" in line:
-            #reply.append( "Start running a search on nearest maimai dx (NMM)\nIt's slow. Don't type anything before i tell you to do so. Also, please use chinese for this function."
-            maimai=nearestMaimai()
-            r,registedEvent=maimai.nearestMaimai_0(line)
-            reply.append(r)
+            #maimai=nearestMaimai()
+            #r,registedEvent=maimai.nearestMaimai_0(line)
+            #reply.append(r)
+            reply.append( "请告诉我你现在的位置，我帮你看看附近有哪些舞萌dx")
+            registedEvent=maimai.nearestMaimai_0
         elif "arknights" in line:
             reply.append( "想要查找哪位干员的资料？")
             registedEvent=aknz
