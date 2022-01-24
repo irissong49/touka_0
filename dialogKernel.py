@@ -151,7 +151,7 @@ class nearestMaimai():
 
         reply.append("部分地图上找不到坐标的没计入。到{}最近的10个maimaiDX机厅排序如下：".format(address))
         distance_ranking=sorted(maimai_with_geo,key=lambda x:x['dis_to_target'])
-        reply.append(pd.DataFrame(distance_ranking[0:11]).to_html(classes='data'))
+        reply.append(pd.DataFrame(distance_ranking[0:11]).drop(columns = ['placeId','id','coordinate']).to_html(classes='data'))
         return((reply,-1))
 
 
@@ -198,9 +198,9 @@ class nearestMaimai():
             tmp=self.search_result.pop(i)
             reply.append("{}地图上找不到坐标，没算进去".format(tmp['arcadeName']))
 
-        reply.append("到{}最近的maimaiDX排序如下：".format(address))
+        reply.append("到{}最近的maimaiDX排序如下xDDDD：".format(address))
         distance_ranking=sorted(self.search_result,key=lambda x:x['dis_to_target'])
-        reply.append(pd.DataFrame(distance_ranking[0:15]).to_html(classes='data'))
+        reply.append("<pre>"+pd.DataFrame(distance_ranking[0:15]).to_html(classes='data')+"</pre>")
 
         return((reply,-1))
 
