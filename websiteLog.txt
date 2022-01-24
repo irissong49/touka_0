@@ -274,3 +274,228 @@ Mon Jan 24 23:41:29 2022from server:['hi?<br>']
 Mon Jan 24 23:41:31 2022from website:sbsb
 Mon Jan 24 23:41:31 2022sending to server:sbsb
 Mon Jan 24 23:41:32 2022from server:['sbsb?<br>']
+Mon Jan 24 23:43:09 2022from website:sbsb
+Mon Jan 24 23:43:09 2022sending to server:sbsb
+Mon Jan 24 23:43:09 2022from server:['sbsb!<br>']
+Mon Jan 24 23:43:15 2022from website:HELLO
+Mon Jan 24 23:43:15 2022sending to server:HELLO
+Mon Jan 24 23:43:15 2022from server:['hello!<br>']
+Mon Jan 24 23:43:34 2022from website:HELLO
+Mon Jan 24 23:43:34 2022sending to server:HELLO
+Mon Jan 24 23:43:35 2022from server:['hello!<br>']
+Mon Jan 24 23:43:42 2022from website:DAFDA
+Mon Jan 24 23:43:42 2022sending to server:DAFDA
+Mon Jan 24 23:43:42 2022from server:["that's cool<br>"]
+Mon Jan 24 23:43:45 2022from website:DAFDA
+Mon Jan 24 23:43:45 2022sending to server:DAFDA
+Mon Jan 24 23:43:45 2022from server:['please go on<br>']
+Mon Jan 24 23:43:49 2022from website:DAFA
+Mon Jan 24 23:43:49 2022sending to server:DAFA
+Mon Jan 24 23:43:50 2022from server:['dafa?<br>']
+Mon Jan 24 23:44:08 2022from website:DAFA
+Mon Jan 24 23:44:08 2022sending to server:DAFA
+Mon Jan 24 23:44:08 2022from server:['dafa?<br>']
+Mon Jan 24 23:44:20 2022from website:HELLO
+Mon Jan 24 23:44:20 2022sending to server:HELLO
+Mon Jan 24 23:44:20 2022from server:['please go on<br>']
+Mon Jan 24 23:45:03 2022from website:HELLO
+Mon Jan 24 23:45:03 2022sending to server:HELLO
+Mon Jan 24 23:45:03 2022from server:['hello?<br>']
+Mon Jan 24 23:45:12 2022from website:HELLO
+Mon Jan 24 23:45:12 2022sending to server:HELLO
+Mon Jan 24 23:45:12 2022from server:['i like your idea<br>']
+Mon Jan 24 23:45:25 2022from website:HELLO
+Mon Jan 24 23:45:25 2022sending to server:HELLO
+Mon Jan 24 23:45:25 2022from server:['hello?<br>']
+Mon Jan 24 23:45:40 2022from website:HELLO
+Mon Jan 24 23:45:40 2022sending to server:HELLO
+Mon Jan 24 23:45:41 2022from server:['hello!<br>']
+Mon Jan 24 23:45:50 2022from website:HELLO
+Mon Jan 24 23:45:50 2022sending to server:HELLO
+Mon Jan 24 23:45:50 2022from server:["that's cool<br>"]
+Mon Jan 24 23:50:26 2022from website:HELLO
+Mon Jan 24 23:50:26 2022sending to server:HELLO
+Mon Jan 24 23:50:26 2022from server:['hello!<br>']
+Mon Jan 24 23:50:34 2022from website:hello
+Mon Jan 24 23:50:34 2022sending to server:hello
+Mon Jan 24 23:50:34 2022from server:['hello!<br>']
+Mon Jan 24 23:50:37 2022from website:no
+Mon Jan 24 23:50:37 2022sending to server:no
+Mon Jan 24 23:50:38 2022from server:['I see.<br>']
+Mon Jan 24 23:50:49 2022from website:hi
+Mon Jan 24 23:50:49 2022sending to server:hi
+Mon Jan 24 23:50:49 2022from server:['hi!<br>']
+Mon Jan 24 23:52:20 2022from website:clear!
+Mon Jan 24 23:52:20 2022sending to server:clear!
+Mon Jan 24 23:52:20 2022from server:['clear!!<br>']
+Mon Jan 24 23:52:25 2022from website:hi
+Mon Jan 24 23:52:25 2022sending to server:hi
+Mon Jan 24 23:52:25 2022from server:['hi?<br>']
+Mon Jan 24 23:52:31 2022from website:a
+Mon Jan 24 23:52:31 2022sending to server:a
+Mon Jan 24 23:52:31 2022from server:['please go on<br>']
+Mon Jan 24 23:52:33 2022from website:flood
+Mon Jan 24 23:52:33 2022sending to server:flood
+Mon Jan 24 23:52:33 2022from server:['flood!<br>']
+Mon Jan 24 23:52:35 2022from website:a
+Mon Jan 24 23:52:35 2022sending to server:a
+Mon Jan 24 23:52:36 2022from server:['a?<br>']
+Mon Jan 24 23:52:38 2022from website:a
+Mon Jan 24 23:52:38 2022sending to server:a
+Mon Jan 24 23:52:38 2022from server:['a?<br>']
+Mon Jan 24 23:52:42 2022from website:a
+Mon Jan 24 23:52:42 2022sending to server:a
+Mon Jan 24 23:52:42 2022from server:["that's cool<br>"]
+Mon Jan 24 23:52:45 2022from website:a
+Mon Jan 24 23:52:45 2022sending to server:a
+Mon Jan 24 23:52:45 2022from server:['a!<br>']
+Mon Jan 24 23:52:48 2022from website:a
+Mon Jan 24 23:52:48 2022sending to server:a
+Mon Jan 24 23:52:49 2022from server:['a!<br>']
+Tue Jan 25 00:01:50 2022from website:a
+Tue Jan 25 00:01:50 2022sending to server:a
+Tue Jan 25 00:01:50 2022from server:['i like your idea<br>']
+Tue Jan 25 00:01:57 2022from website:hi
+Tue Jan 25 00:01:57 2022sending to server:hi
+Tue Jan 25 00:01:57 2022from server:['hi!<br>']
+Tue Jan 25 00:02:00 2022from website:hi
+Tue Jan 25 00:02:00 2022sending to server:hi
+Tue Jan 25 00:02:00 2022from server:['hi?<br>']
+Tue Jan 25 00:02:35 2022from website:hi
+Tue Jan 25 00:02:35 2022sending to server:hi
+Tue Jan 25 00:02:35 2022from server:["that's cool<br>"]
+Tue Jan 25 00:02:37 2022from website:9
+Tue Jan 25 00:02:37 2022sending to server:9
+Tue Jan 25 00:02:37 2022from server:['please go on<br>']
+Tue Jan 25 00:03:37 2022from website:9
+Tue Jan 25 00:03:37 2022sending to server:9
+Tue Jan 25 00:03:37 2022from server:['9?<br>']
+Tue Jan 25 00:03:41 2022from website:2
+Tue Jan 25 00:03:41 2022sending to server:2
+Tue Jan 25 00:03:41 2022from server:['i like your idea<br>']
+Tue Jan 25 00:03:49 2022from website:2
+Tue Jan 25 00:03:49 2022sending to server:2
+Tue Jan 25 00:03:49 2022from server:['i like your idea<br>']
+Tue Jan 25 00:03:52 2022from website:2
+Tue Jan 25 00:03:52 2022sending to server:2
+Tue Jan 25 00:03:52 2022from server:['2!<br>']
+Tue Jan 25 00:04:03 2022from website:2
+Tue Jan 25 00:04:03 2022sending to server:2
+Tue Jan 25 00:04:03 2022from server:['2?<br>']
+Tue Jan 25 00:04:06 2022from website:2
+Tue Jan 25 00:04:06 2022sending to server:2
+Tue Jan 25 00:04:06 2022from server:['please go on<br>']
+Tue Jan 25 00:04:18 2022from website:2
+Tue Jan 25 00:04:18 2022sending to server:2
+Tue Jan 25 00:04:18 2022from server:['2!<br>']
+Tue Jan 25 00:04:21 2022from website:2
+Tue Jan 25 00:04:21 2022sending to server:2
+Tue Jan 25 00:04:21 2022from server:["that's cool<br>"]
+Tue Jan 25 00:04:23 2022from website:3
+Tue Jan 25 00:04:23 2022sending to server:3
+Tue Jan 25 00:04:23 2022from server:['please go on<br>']
+Tue Jan 25 00:05:03 2022from website:3
+Tue Jan 25 00:05:03 2022sending to server:3
+Tue Jan 25 00:05:03 2022from server:['3!<br>']
+Tue Jan 25 00:05:05 2022from website:1
+Tue Jan 25 00:05:05 2022sending to server:1
+Tue Jan 25 00:05:05 2022from server:['1!<br>']
+Tue Jan 25 00:05:07 2022from website:2
+Tue Jan 25 00:05:07 2022sending to server:2
+Tue Jan 25 00:05:07 2022from server:['2?<br>']
+Tue Jan 25 00:05:41 2022from website:2
+Tue Jan 25 00:05:41 2022sending to server:2
+Tue Jan 25 00:05:41 2022from server:['please go on<br>']
+Tue Jan 25 00:05:43 2022from website:3
+Tue Jan 25 00:05:43 2022sending to server:3
+Tue Jan 25 00:05:43 2022from server:['3!<br>']
+Tue Jan 25 00:05:45 2022from website:4
+Tue Jan 25 00:05:45 2022sending to server:4
+Tue Jan 25 00:05:45 2022from server:['4?<br>']
+Tue Jan 25 00:05:47 2022from website:5
+Tue Jan 25 00:05:47 2022sending to server:5
+Tue Jan 25 00:05:47 2022from server:['5!<br>']
+Tue Jan 25 00:06:43 2022from website:5
+Tue Jan 25 00:06:43 2022sending to server:5
+Tue Jan 25 00:06:43 2022from server:['5!<br>']
+Tue Jan 25 00:06:49 2022from website:5
+Tue Jan 25 00:06:49 2022sending to server:5
+Tue Jan 25 00:06:49 2022from server:['please go on<br>']
+Tue Jan 25 00:08:13 2022from website:5
+Tue Jan 25 00:08:13 2022sending to server:5
+Tue Jan 25 00:08:13 2022from server:['5!<br>']
+Tue Jan 25 00:08:23 2022from website:hi
+Tue Jan 25 00:08:23 2022sending to server:hi
+Tue Jan 25 00:08:23 2022from server:['hi?<br>']
+Tue Jan 25 00:09:22 2022from website:hi
+Tue Jan 25 00:09:22 2022sending to server:hi
+Tue Jan 25 00:09:22 2022from server:["that's cool<br>"]
+Tue Jan 25 00:10:08 2022from website:hi
+Tue Jan 25 00:10:08 2022sending to server:hi
+Tue Jan 25 00:10:08 2022from server:['hi!<br>']
+Tue Jan 25 00:10:16 2022from website:hi
+Tue Jan 25 00:10:16 2022sending to server:hi
+Tue Jan 25 00:10:16 2022from server:['hi!<br>']
+Tue Jan 25 00:10:18 2022from website:hi
+Tue Jan 25 00:10:18 2022sending to server:hi
+Tue Jan 25 00:10:18 2022from server:['hi!<br>']
+Tue Jan 25 00:10:43 2022from website:hi
+Tue Jan 25 00:10:43 2022sending to server:hi
+Tue Jan 25 00:10:43 2022from server:['i like your idea<br>']
+Tue Jan 25 00:10:50 2022from website:hi
+Tue Jan 25 00:10:50 2022sending to server:hi
+Tue Jan 25 00:10:50 2022from server:['hi!<br>']
+Tue Jan 25 00:11:17 2022from website:hi
+Tue Jan 25 00:11:17 2022sending to server:hi
+Tue Jan 25 00:11:17 2022from server:['hi!<br>']
+Tue Jan 25 00:11:28 2022from website:hi
+Tue Jan 25 00:11:28 2022sending to server:hi
+Tue Jan 25 00:11:28 2022from server:['please go on<br>']
+Tue Jan 25 00:14:32 2022from website:hi
+Tue Jan 25 00:14:32 2022sending to server:hi
+Tue Jan 25 00:14:32 2022from server:['please go on<br>']
+Tue Jan 25 00:14:43 2022from website:hi
+Tue Jan 25 00:14:43 2022sending to server:hi
+Tue Jan 25 00:14:43 2022from server:['hi!<br>']
+Tue Jan 25 00:15:21 2022from website:hi
+Tue Jan 25 00:15:21 2022sending to server:hi
+Tue Jan 25 00:15:21 2022from server:['hi?<br>']
+Tue Jan 25 00:15:25 2022from website:zzzzz
+Tue Jan 25 00:15:25 2022sending to server:zzzzz
+Tue Jan 25 00:15:25 2022from server:['zzzzz?<br>']
+Tue Jan 25 00:15:27 2022from website:sssss
+Tue Jan 25 00:15:27 2022sending to server:sssss
+Tue Jan 25 00:15:27 2022from server:['sssss?<br>']
+Tue Jan 25 00:16:23 2022from website:sssss
+Tue Jan 25 00:16:23 2022sending to server:sssss
+Tue Jan 25 00:16:23 2022from server:['i like your idea<br>']
+Tue Jan 25 00:16:36 2022from website:sssss
+Tue Jan 25 00:16:36 2022sending to server:sssss
+Tue Jan 25 00:16:36 2022from server:['sssss?<br>']
+Tue Jan 25 00:16:46 2022from website:sssss
+Tue Jan 25 00:16:46 2022sending to server:sssss
+Tue Jan 25 00:16:46 2022from server:['please go on<br>']
+Tue Jan 25 00:16:49 2022from website:hello
+Tue Jan 25 00:16:49 2022sending to server:hello
+Tue Jan 25 00:16:49 2022from server:['hello?<br>']
+Tue Jan 25 00:17:05 2022from website:hello
+Tue Jan 25 00:17:05 2022sending to server:hello
+Tue Jan 25 00:17:05 2022from server:['hello?<br>']
+Tue Jan 25 00:17:10 2022from website:o
+Tue Jan 25 00:17:10 2022sending to server:o
+Tue Jan 25 00:17:10 2022from server:['i like your idea<br>']
+Tue Jan 25 00:18:17 2022from website:maimai
+Tue Jan 25 00:18:17 2022sending to server:maimai
+Tue Jan 25 00:18:17 2022from server:['请告诉我你现在的位置，我帮你看看附近有哪些舞萌dx<br>']
+Tue Jan 25 00:18:23 2022from website:上海市淞虹路地铁站
+Tue Jan 25 00:18:23 2022sending to server:上海市淞虹路地铁站
+Tue Jan 25 00:18:26 2022from server:['[\'部分地图上找不到坐标的没计入。到上海市淞虹路地铁站最近的10个maimaiDX机厅排序如下：\', \'<table border="1" class="dataframe data">\\n  <thead>\\n    <tr style="text-align: right;">\\n      <th></th>\\n      <th>placeId</th>\\n      <th>machineCount</th>\\n      <th>id</th>\\n      <th>province</th>\\n      <th>arcadeName</th>\\n      <th>mall</th>\\n      <th>address</th>\\n      <th>coordinate</th>\\n      <th>dis_to_target</th>\\n    </tr>\\n  </thead>\\n  <tbody>\\n    <tr>\\n      <th>0</th>\\n      <td>1728</td>\\n      <td>1</td>\\n      <td>1728</td>\\n      <td>上海</td>\\n      <td>奥玩空间上海ESP店</td>\\n      <td>奥玩空间上海ESP店</td>\\n      <td>上海市普陀区同普路428号2楼奥玩空间</td>\\n      <td>[31.227362, 121.386444]</td>\\n      <td>29.235592</td>\\n    </tr>\\n    <tr>\\n      <th>1</th>\\n      <td>1293</td>\\n      <td>2</td>\\n      <td>1293</td>\\n      <td>上海</td>\\n      <td>风云再起上海中环百联店</td>\\n      <td>风云再起上海中环百联店</td>\\n      <td>上海市普陀区真光路1288号中环百联3楼风云再起</td>\\n      <td>[31.24578, 121.383125]</td>\\n      <td>36.560323</td>\\n    </tr>\\n    <tr>\\n      <th>2</th>\\n      <td>1195</td>\\n      <td>2</td>\\n      <td>1195</td>\\n      <td>上海</td>\\n      <td>风云再起上海长风大悦城店</td>\\n      <td>风云再起上海长风大悦城店</td>\\n      <td>上海市普陀区长风新村街道大渡河路168弄136号长风大悦城室外商场3楼L3-13室风云再起</td>\\n      <td>[31.221907, 121.39522]</td>\\n      <td>36.850309</td>\\n    </tr>\\n    <tr>\\n      <th>3</th>\\n      <td>1353</td>\\n      <td>1</td>\\n      <td>1353</td>\\n      <td>上海</td>\\n      <td>大玩家马桥万达店</td>\\n      <td>大玩家马桥万达店</td>\\n      <td>上海市马桥万达广场三楼大玩家</td>\\n      <td>[31.239363, 121.32601]</td>\\n      <td>38.480363</td>\\n    </tr>\\n    <tr>\\n      <th>4</th>\\n      <td>1330</td>\\n      <td>1</td>\\n      <td>1330</td>\\n      <td>上海</td>\\n      <td>大玩家上海江桥万达店</td>\\n      <td>大玩家上海江桥万达店</td>\\n      <td>上海市嘉定区金沙江西路1051号万达广场一楼大玩家</td>\\n      <td>[31.240162, 121.32393]</td>\\n      <td>40.667170</td>\\n    </tr>\\n    <tr>\\n      <th>5</th>\\n      <td>1527</td>\\n      <td>1</td>\\n      <td>1527</td>\\n      <td>上海</td>\\n      <td>汤姆熊上海环球港店</td>\\n      <td>汤姆熊上海环球港店</td>\\n      <td>上海市中山北路3300号环球港购物中心3楼3166室汤姆熊欢乐世界</td>\\n      <td>[31.23483, 121.413086]</td>\\n      <td>56.899804</td>\\n    </tr>\\n    <tr>\\n      <th>6</th>\\n      <td>1098</td>\\n      <td>4</td>\\n      <td>1098</td>\\n      <td>上海</td>\\n      <td>上海JOYPOLIS世嘉都市乐园</td>\\n      <td>上海JOYPOLIS世嘉都市乐园</td>\\n      <td>上海市普陀区中山北路3300号月星环球港四楼世嘉都市乐园</td>\\n      <td>[31.234758, 121.41331]</td>\\n      <td>57.094484</td>\\n    </tr>\\n    <tr>\\n      <th>7</th>\\n      <td>1288</td>\\n      <td>2</td>\\n      <td>1288</td>\\n      <td>上海</td>\\n      <td>汤姆熊上海长宁龙之梦店</td>\\n      <td>汤姆熊上海长宁龙之梦店</td>\\n      <td>上海市长宁区长宁路1810号龙之梦购物中心6楼汤姆熊欢乐世界</td>\\n      <td>[31.218987, 121.416504]</td>\\n      <td>57.999476</td>\\n    </tr>\\n    <tr>\\n      <th>8</th>\\n      <td>1548</td>\\n      <td>1</td>\\n      <td>1548</td>\\n      <td>上海</td>\\n      <td>聚玩堂上海龙之梦店</td>\\n      <td>聚玩堂上海龙之梦店</td>\\n      <td>上海市长宁区长宁路龙之梦购物中心五楼</td>\\n      <td>[31.218704, 121.41713]</td>\\n      <td>58.625020</td>\\n    </tr>\\n    <tr>\\n      <th>9</th>\\n      <td>1220</td>\\n      <td>2</td>\\n      <td>1220</td>\\n      <td>上海</td>\\n      <td>天天玩上海徐汇汇银广场店</td>\\n      <td>天天玩上海徐汇汇银广场店</td>\\n      <td>上海市徐汇区华山路2088号汇银广场南楼7M层天天玩</td>\\n      <td>[31.197422, 121.4369]</td>\\n      <td>81.244969</td>\\n    </tr>\\n    <tr>\\n      <th>10</th>\\n      <td>1272</td>\\n      <td>2</td>\\n      <td>1272</td>\\n      <td>上海</td>\\n      <td>风云再起上海维璟广场店</td>\\n      <td>风云再起上海维璟广场店</td>\\n      <td>上海市闵行区维璟广场四楼风云再起</td>\\n      <td>[31.130926, 121.363716]</td>\\n      <td>87.980457</td>\\n    </tr>\\n  </tbody>\\n</table>\']<br>']
+Tue Jan 25 00:19:24 2022from website:上海市淞虹路地铁站
+Tue Jan 25 00:19:24 2022sending to server:上海市淞虹路地铁站
+Tue Jan 25 00:19:24 2022from server:['上海市淞虹路地铁站!<br>']
+Tue Jan 25 00:19:34 2022from website:上海市淞虹路地铁站
+Tue Jan 25 00:19:34 2022sending to server:上海市淞虹路地铁站
+Tue Jan 25 00:19:34 2022from server:['please go on<br>']
+Tue Jan 25 00:19:44 2022from website:是哪里？
+Tue Jan 25 00:19:44 2022sending to server:是哪里？
+Tue Jan 25 00:19:44 2022from server:["that's cool<br>"]

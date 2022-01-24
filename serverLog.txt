@@ -295,3 +295,228 @@ Mon Jan 24 23:41:29 2022send to client:['hi?']
 Mon Jan 24 23:41:31 2022established a connection from:('127.0.0.1', 60760)
 Mon Jan 24 23:41:31 2022received from clinet: sbsb
 Mon Jan 24 23:41:31 2022send to client:['sbsb?']
+Mon Jan 24 23:43:09 2022established a connection from:('127.0.0.1', 60808)
+Mon Jan 24 23:43:09 2022received from clinet: sbsb
+Mon Jan 24 23:43:09 2022send to client:['sbsb!']
+Mon Jan 24 23:43:15 2022established a connection from:('127.0.0.1', 60811)
+Mon Jan 24 23:43:15 2022received from clinet: HELLO
+Mon Jan 24 23:43:15 2022send to client:['hello!']
+Mon Jan 24 23:43:34 2022established a connection from:('127.0.0.1', 60815)
+Mon Jan 24 23:43:34 2022received from clinet: HELLO
+Mon Jan 24 23:43:34 2022send to client:['hello!']
+Mon Jan 24 23:43:42 2022established a connection from:('127.0.0.1', 60818)
+Mon Jan 24 23:43:42 2022received from clinet: DAFDA
+Mon Jan 24 23:43:42 2022send to client:["that's cool"]
+Mon Jan 24 23:43:45 2022established a connection from:('127.0.0.1', 60821)
+Mon Jan 24 23:43:45 2022received from clinet: DAFDA
+Mon Jan 24 23:43:45 2022send to client:['please go on']
+Mon Jan 24 23:43:49 2022established a connection from:('127.0.0.1', 60824)
+Mon Jan 24 23:43:49 2022received from clinet: DAFA
+Mon Jan 24 23:43:49 2022send to client:['dafa?']
+Mon Jan 24 23:44:08 2022established a connection from:('127.0.0.1', 60827)
+Mon Jan 24 23:44:08 2022received from clinet: DAFA
+Mon Jan 24 23:44:08 2022send to client:['dafa?']
+Mon Jan 24 23:44:20 2022established a connection from:('127.0.0.1', 60830)
+Mon Jan 24 23:44:20 2022received from clinet: HELLO
+Mon Jan 24 23:44:20 2022send to client:['please go on']
+Mon Jan 24 23:45:03 2022established a connection from:('127.0.0.1', 60837)
+Mon Jan 24 23:45:03 2022received from clinet: HELLO
+Mon Jan 24 23:45:03 2022send to client:['hello?']
+Mon Jan 24 23:45:12 2022established a connection from:('127.0.0.1', 60840)
+Mon Jan 24 23:45:12 2022received from clinet: HELLO
+Mon Jan 24 23:45:12 2022send to client:['i like your idea']
+Mon Jan 24 23:45:25 2022established a connection from:('127.0.0.1', 60843)
+Mon Jan 24 23:45:25 2022received from clinet: HELLO
+Mon Jan 24 23:45:25 2022send to client:['hello?']
+Mon Jan 24 23:45:40 2022established a connection from:('127.0.0.1', 60849)
+Mon Jan 24 23:45:40 2022received from clinet: HELLO
+Mon Jan 24 23:45:40 2022send to client:['hello!']
+Mon Jan 24 23:45:50 2022established a connection from:('127.0.0.1', 60852)
+Mon Jan 24 23:45:50 2022received from clinet: HELLO
+Mon Jan 24 23:45:50 2022send to client:["that's cool"]
+Mon Jan 24 23:50:26 2022established a connection from:('127.0.0.1', 61257)
+Mon Jan 24 23:50:26 2022received from clinet: HELLO
+Mon Jan 24 23:50:26 2022send to client:['hello!']
+Mon Jan 24 23:50:34 2022established a connection from:('127.0.0.1', 61260)
+Mon Jan 24 23:50:34 2022received from clinet: hello
+Mon Jan 24 23:50:34 2022send to client:['hello!']
+Mon Jan 24 23:50:37 2022established a connection from:('127.0.0.1', 61263)
+Mon Jan 24 23:50:37 2022received from clinet: no
+Mon Jan 24 23:50:37 2022send to client:['I see.']
+Mon Jan 24 23:50:49 2022established a connection from:('127.0.0.1', 61266)
+Mon Jan 24 23:50:49 2022received from clinet: hi
+Mon Jan 24 23:50:49 2022send to client:['hi!']
+Mon Jan 24 23:52:20 2022established a connection from:('127.0.0.1', 61386)
+Mon Jan 24 23:52:20 2022received from clinet: clear!
+Mon Jan 24 23:52:20 2022send to client:['clear!!']
+Mon Jan 24 23:52:25 2022established a connection from:('127.0.0.1', 61389)
+Mon Jan 24 23:52:25 2022received from clinet: hi
+Mon Jan 24 23:52:25 2022send to client:['hi?']
+Mon Jan 24 23:52:31 2022established a connection from:('127.0.0.1', 61392)
+Mon Jan 24 23:52:31 2022received from clinet: a
+Mon Jan 24 23:52:31 2022send to client:['please go on']
+Mon Jan 24 23:52:33 2022established a connection from:('127.0.0.1', 61395)
+Mon Jan 24 23:52:33 2022received from clinet: flood
+Mon Jan 24 23:52:33 2022send to client:['flood!']
+Mon Jan 24 23:52:35 2022established a connection from:('127.0.0.1', 61398)
+Mon Jan 24 23:52:35 2022received from clinet: a
+Mon Jan 24 23:52:35 2022send to client:['a?']
+Mon Jan 24 23:52:38 2022established a connection from:('127.0.0.1', 61401)
+Mon Jan 24 23:52:38 2022received from clinet: a
+Mon Jan 24 23:52:38 2022send to client:['a?']
+Mon Jan 24 23:52:42 2022established a connection from:('127.0.0.1', 61404)
+Mon Jan 24 23:52:42 2022received from clinet: a
+Mon Jan 24 23:52:42 2022send to client:["that's cool"]
+Mon Jan 24 23:52:45 2022established a connection from:('127.0.0.1', 61407)
+Mon Jan 24 23:52:45 2022received from clinet: a
+Mon Jan 24 23:52:45 2022send to client:['a!']
+Mon Jan 24 23:52:48 2022established a connection from:('127.0.0.1', 61410)
+Mon Jan 24 23:52:48 2022received from clinet: a
+Mon Jan 24 23:52:48 2022send to client:['a!']
+Tue Jan 25 00:01:50 2022established a connection from:('127.0.0.1', 61860)
+Tue Jan 25 00:01:50 2022received from clinet: a
+Tue Jan 25 00:01:50 2022send to client:['i like your idea']
+Tue Jan 25 00:01:57 2022established a connection from:('127.0.0.1', 61863)
+Tue Jan 25 00:01:57 2022received from clinet: hi
+Tue Jan 25 00:01:57 2022send to client:['hi!']
+Tue Jan 25 00:02:00 2022established a connection from:('127.0.0.1', 61866)
+Tue Jan 25 00:02:00 2022received from clinet: hi
+Tue Jan 25 00:02:00 2022send to client:['hi?']
+Tue Jan 25 00:02:35 2022established a connection from:('127.0.0.1', 61869)
+Tue Jan 25 00:02:35 2022received from clinet: hi
+Tue Jan 25 00:02:35 2022send to client:["that's cool"]
+Tue Jan 25 00:02:37 2022established a connection from:('127.0.0.1', 61875)
+Tue Jan 25 00:02:37 2022received from clinet: 9
+Tue Jan 25 00:02:37 2022send to client:['please go on']
+Tue Jan 25 00:03:37 2022established a connection from:('127.0.0.1', 61922)
+Tue Jan 25 00:03:37 2022received from clinet: 9
+Tue Jan 25 00:03:37 2022send to client:['9?']
+Tue Jan 25 00:03:41 2022established a connection from:('127.0.0.1', 61925)
+Tue Jan 25 00:03:41 2022received from clinet: 2
+Tue Jan 25 00:03:41 2022send to client:['i like your idea']
+Tue Jan 25 00:03:49 2022established a connection from:('127.0.0.1', 61928)
+Tue Jan 25 00:03:49 2022received from clinet: 2
+Tue Jan 25 00:03:49 2022send to client:['i like your idea']
+Tue Jan 25 00:03:52 2022established a connection from:('127.0.0.1', 61931)
+Tue Jan 25 00:03:52 2022received from clinet: 2
+Tue Jan 25 00:03:52 2022send to client:['2!']
+Tue Jan 25 00:04:03 2022established a connection from:('127.0.0.1', 61934)
+Tue Jan 25 00:04:03 2022received from clinet: 2
+Tue Jan 25 00:04:03 2022send to client:['2?']
+Tue Jan 25 00:04:06 2022established a connection from:('127.0.0.1', 61938)
+Tue Jan 25 00:04:06 2022received from clinet: 2
+Tue Jan 25 00:04:06 2022send to client:['please go on']
+Tue Jan 25 00:04:18 2022established a connection from:('127.0.0.1', 61945)
+Tue Jan 25 00:04:18 2022received from clinet: 2
+Tue Jan 25 00:04:18 2022send to client:['2!']
+Tue Jan 25 00:04:21 2022established a connection from:('127.0.0.1', 61949)
+Tue Jan 25 00:04:21 2022received from clinet: 2
+Tue Jan 25 00:04:21 2022send to client:["that's cool"]
+Tue Jan 25 00:04:23 2022established a connection from:('127.0.0.1', 61952)
+Tue Jan 25 00:04:23 2022received from clinet: 3
+Tue Jan 25 00:04:23 2022send to client:['please go on']
+Tue Jan 25 00:05:03 2022established a connection from:('127.0.0.1', 61964)
+Tue Jan 25 00:05:03 2022received from clinet: 3
+Tue Jan 25 00:05:03 2022send to client:['3!']
+Tue Jan 25 00:05:05 2022established a connection from:('127.0.0.1', 61967)
+Tue Jan 25 00:05:05 2022received from clinet: 1
+Tue Jan 25 00:05:05 2022send to client:['1!']
+Tue Jan 25 00:05:07 2022established a connection from:('127.0.0.1', 61970)
+Tue Jan 25 00:05:07 2022received from clinet: 2
+Tue Jan 25 00:05:07 2022send to client:['2?']
+Tue Jan 25 00:05:41 2022established a connection from:('127.0.0.1', 61977)
+Tue Jan 25 00:05:41 2022received from clinet: 2
+Tue Jan 25 00:05:41 2022send to client:['please go on']
+Tue Jan 25 00:05:43 2022established a connection from:('127.0.0.1', 61980)
+Tue Jan 25 00:05:43 2022received from clinet: 3
+Tue Jan 25 00:05:43 2022send to client:['3!']
+Tue Jan 25 00:05:45 2022established a connection from:('127.0.0.1', 61983)
+Tue Jan 25 00:05:45 2022received from clinet: 4
+Tue Jan 25 00:05:45 2022send to client:['4?']
+Tue Jan 25 00:05:47 2022established a connection from:('127.0.0.1', 61986)
+Tue Jan 25 00:05:47 2022received from clinet: 5
+Tue Jan 25 00:05:47 2022send to client:['5!']
+Tue Jan 25 00:06:43 2022established a connection from:('127.0.0.1', 61992)
+Tue Jan 25 00:06:43 2022received from clinet: 5
+Tue Jan 25 00:06:43 2022send to client:['5!']
+Tue Jan 25 00:06:49 2022established a connection from:('127.0.0.1', 61995)
+Tue Jan 25 00:06:49 2022received from clinet: 5
+Tue Jan 25 00:06:49 2022send to client:['please go on']
+Tue Jan 25 00:08:13 2022established a connection from:('127.0.0.1', 62055)
+Tue Jan 25 00:08:13 2022received from clinet: 5
+Tue Jan 25 00:08:13 2022send to client:['5!']
+Tue Jan 25 00:08:23 2022established a connection from:('127.0.0.1', 62058)
+Tue Jan 25 00:08:23 2022received from clinet: hi
+Tue Jan 25 00:08:23 2022send to client:['hi?']
+Tue Jan 25 00:09:22 2022established a connection from:('127.0.0.1', 62067)
+Tue Jan 25 00:09:22 2022received from clinet: hi
+Tue Jan 25 00:09:22 2022send to client:["that's cool"]
+Tue Jan 25 00:10:08 2022established a connection from:('127.0.0.1', 62072)
+Tue Jan 25 00:10:08 2022received from clinet: hi
+Tue Jan 25 00:10:08 2022send to client:['hi!']
+Tue Jan 25 00:10:16 2022established a connection from:('127.0.0.1', 62075)
+Tue Jan 25 00:10:16 2022received from clinet: hi
+Tue Jan 25 00:10:16 2022send to client:['hi!']
+Tue Jan 25 00:10:18 2022established a connection from:('127.0.0.1', 62078)
+Tue Jan 25 00:10:18 2022received from clinet: hi
+Tue Jan 25 00:10:18 2022send to client:['hi!']
+Tue Jan 25 00:10:43 2022established a connection from:('127.0.0.1', 62081)
+Tue Jan 25 00:10:43 2022received from clinet: hi
+Tue Jan 25 00:10:43 2022send to client:['i like your idea']
+Tue Jan 25 00:10:50 2022established a connection from:('127.0.0.1', 62084)
+Tue Jan 25 00:10:50 2022received from clinet: hi
+Tue Jan 25 00:10:50 2022send to client:['hi!']
+Tue Jan 25 00:11:17 2022established a connection from:('127.0.0.1', 62088)
+Tue Jan 25 00:11:17 2022received from clinet: hi
+Tue Jan 25 00:11:17 2022send to client:['hi!']
+Tue Jan 25 00:11:28 2022established a connection from:('127.0.0.1', 62092)
+Tue Jan 25 00:11:28 2022received from clinet: hi
+Tue Jan 25 00:11:28 2022send to client:['please go on']
+Tue Jan 25 00:14:32 2022established a connection from:('127.0.0.1', 62222)
+Tue Jan 25 00:14:32 2022received from clinet: hi
+Tue Jan 25 00:14:32 2022send to client:['please go on']
+Tue Jan 25 00:14:43 2022established a connection from:('127.0.0.1', 62225)
+Tue Jan 25 00:14:43 2022received from clinet: hi
+Tue Jan 25 00:14:43 2022send to client:['hi!']
+Tue Jan 25 00:15:21 2022established a connection from:('127.0.0.1', 62228)
+Tue Jan 25 00:15:21 2022received from clinet: hi
+Tue Jan 25 00:15:21 2022send to client:['hi?']
+Tue Jan 25 00:15:25 2022established a connection from:('127.0.0.1', 62231)
+Tue Jan 25 00:15:25 2022received from clinet: zzzzz
+Tue Jan 25 00:15:25 2022send to client:['zzzzz?']
+Tue Jan 25 00:15:27 2022established a connection from:('127.0.0.1', 62234)
+Tue Jan 25 00:15:27 2022received from clinet: sssss
+Tue Jan 25 00:15:27 2022send to client:['sssss?']
+Tue Jan 25 00:16:23 2022established a connection from:('127.0.0.1', 62306)
+Tue Jan 25 00:16:23 2022received from clinet: sssss
+Tue Jan 25 00:16:23 2022send to client:['i like your idea']
+Tue Jan 25 00:16:36 2022established a connection from:('127.0.0.1', 62310)
+Tue Jan 25 00:16:36 2022received from clinet: sssss
+Tue Jan 25 00:16:36 2022send to client:['sssss?']
+Tue Jan 25 00:16:46 2022established a connection from:('127.0.0.1', 62313)
+Tue Jan 25 00:16:46 2022received from clinet: sssss
+Tue Jan 25 00:16:46 2022send to client:['please go on']
+Tue Jan 25 00:16:49 2022established a connection from:('127.0.0.1', 62316)
+Tue Jan 25 00:16:49 2022received from clinet: hello
+Tue Jan 25 00:16:49 2022send to client:['hello?']
+Tue Jan 25 00:17:05 2022established a connection from:('127.0.0.1', 62319)
+Tue Jan 25 00:17:05 2022received from clinet: hello
+Tue Jan 25 00:17:05 2022send to client:['hello?']
+Tue Jan 25 00:17:10 2022established a connection from:('127.0.0.1', 62322)
+Tue Jan 25 00:17:10 2022received from clinet: o
+Tue Jan 25 00:17:10 2022send to client:['i like your idea']
+Tue Jan 25 00:18:17 2022established a connection from:('127.0.0.1', 62494)
+Tue Jan 25 00:18:17 2022received from clinet: maimai
+Tue Jan 25 00:18:17 2022send to client:['请告诉我你现在的位置，我帮你看看附近有哪些舞萌dx']
+Tue Jan 25 00:18:23 2022established a connection from:('127.0.0.1', 62497)
+Tue Jan 25 00:18:23 2022received from clinet: 上海市淞虹路地铁站
+Tue Jan 25 00:18:26 2022send to client:[['部分地图上找不到坐标的没计入。到上海市淞虹路地铁站最近的10个maimaiDX机厅排序如下：', '<table border="1" class="dataframe data">\n  <thead>\n    <tr style="text-align: right;">\n      <th></th>\n      <th>placeId</th>\n      <th>machineCount</th>\n      <th>id</th>\n      <th>province</th>\n      <th>arcadeName</th>\n      <th>mall</th>\n      <th>address</th>\n      <th>coordinate</th>\n      <th>dis_to_target</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>0</th>\n      <td>1728</td>\n      <td>1</td>\n      <td>1728</td>\n      <td>上海</td>\n      <td>奥玩空间上海ESP店</td>\n      <td>奥玩空间上海ESP店</td>\n      <td>上海市普陀区同普路428号2楼奥玩空间</td>\n      <td>[31.227362, 121.386444]</td>\n      <td>29.235592</td>\n    </tr>\n    <tr>\n      <th>1</th>\n      <td>1293</td>\n      <td>2</td>\n      <td>1293</td>\n      <td>上海</td>\n      <td>风云再起上海中环百联店</td>\n      <td>风云再起上海中环百联店</td>\n      <td>上海市普陀区真光路1288号中环百联3楼风云再起</td>\n      <td>[31.24578, 121.383125]</td>\n      <td>36.560323</td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td>1195</td>\n      <td>2</td>\n      <td>1195</td>\n      <td>上海</td>\n      <td>风云再起上海长风大悦城店</td>\n      <td>风云再起上海长风大悦城店</td>\n      <td>上海市普陀区长风新村街道大渡河路168弄136号长风大悦城室外商场3楼L3-13室风云再起</td>\n      <td>[31.221907, 121.39522]</td>\n      <td>36.850309</td>\n    </tr>\n    <tr>\n      <th>3</th>\n      <td>1353</td>\n      <td>1</td>\n      <td>1353</td>\n      <td>上海</td>\n      <td>大玩家马桥万达店</td>\n      <td>大玩家马桥万达店</td>\n      <td>上海市马桥万达广场三楼大玩家</td>\n      <td>[31.239363, 121.32601]</td>\n      <td>38.480363</td>\n    </tr>\n    <tr>\n      <th>4</th>\n      <td>1330</td>\n      <td>1</td>\n      <td>1330</td>\n      <td>上海</td>\n      <td>大玩家上海江桥万达店</td>\n      <td>大玩家上海江桥万达店</td>\n      <td>上海市嘉定区金沙江西路1051号万达广场一楼大玩家</td>\n      <td>[31.240162, 121.32393]</td>\n      <td>40.667170</td>\n    </tr>\n    <tr>\n      <th>5</th>\n      <td>1527</td>\n      <td>1</td>\n      <td>1527</td>\n      <td>上海</td>\n      <td>汤姆熊上海环球港店</td>\n      <td>汤姆熊上海环球港店</td>\n      <td>上海市中山北路3300号环球港购物中心3楼3166室汤姆熊欢乐世界</td>\n      <td>[31.23483, 121.413086]</td>\n      <td>56.899804</td>\n    </tr>\n    <tr>\n      <th>6</th>\n      <td>1098</td>\n      <td>4</td>\n      <td>1098</td>\n      <td>上海</td>\n      <td>上海JOYPOLIS世嘉都市乐园</td>\n      <td>上海JOYPOLIS世嘉都市乐园</td>\n      <td>上海市普陀区中山北路3300号月星环球港四楼世嘉都市乐园</td>\n      <td>[31.234758, 121.41331]</td>\n      <td>57.094484</td>\n    </tr>\n    <tr>\n      <th>7</th>\n      <td>1288</td>\n      <td>2</td>\n      <td>1288</td>\n      <td>上海</td>\n      <td>汤姆熊上海长宁龙之梦店</td>\n      <td>汤姆熊上海长宁龙之梦店</td>\n      <td>上海市长宁区长宁路1810号龙之梦购物中心6楼汤姆熊欢乐世界</td>\n      <td>[31.218987, 121.416504]</td>\n      <td>57.999476</td>\n    </tr>\n    <tr>\n      <th>8</th>\n      <td>1548</td>\n      <td>1</td>\n      <td>1548</td>\n      <td>上海</td>\n      <td>聚玩堂上海龙之梦店</td>\n      <td>聚玩堂上海龙之梦店</td>\n      <td>上海市长宁区长宁路龙之梦购物中心五楼</td>\n      <td>[31.218704, 121.41713]</td>\n      <td>58.625020</td>\n    </tr>\n    <tr>\n      <th>9</th>\n      <td>1220</td>\n      <td>2</td>\n      <td>1220</td>\n      <td>上海</td>\n      <td>天天玩上海徐汇汇银广场店</td>\n      <td>天天玩上海徐汇汇银广场店</td>\n      <td>上海市徐汇区华山路2088号汇银广场南楼7M层天天玩</td>\n      <td>[31.197422, 121.4369]</td>\n      <td>81.244969</td>\n    </tr>\n    <tr>\n      <th>10</th>\n      <td>1272</td>\n      <td>2</td>\n      <td>1272</td>\n      <td>上海</td>\n      <td>风云再起上海维璟广场店</td>\n      <td>风云再起上海维璟广场店</td>\n      <td>上海市闵行区维璟广场四楼风云再起</td>\n      <td>[31.130926, 121.363716]</td>\n      <td>87.980457</td>\n    </tr>\n  </tbody>\n</table>']]
+Tue Jan 25 00:19:24 2022established a connection from:('127.0.0.1', 62504)
+Tue Jan 25 00:19:24 2022received from clinet: 上海市淞虹路地铁站
+Tue Jan 25 00:19:24 2022send to client:['上海市淞虹路地铁站!']
+Tue Jan 25 00:19:34 2022established a connection from:('127.0.0.1', 62513)
+Tue Jan 25 00:19:34 2022received from clinet: 上海市淞虹路地铁站
+Tue Jan 25 00:19:34 2022send to client:['please go on']
+Tue Jan 25 00:19:44 2022established a connection from:('127.0.0.1', 62517)
+Tue Jan 25 00:19:44 2022received from clinet: 是哪里？
+Tue Jan 25 00:19:44 2022send to client:["that's cool"]

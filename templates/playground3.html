@@ -7,19 +7,46 @@
 </head>
 
 <body background="{{ url_for('static', filename='image.png')}}" style="background-position:top right; background-repeat:no-repeat;background-size: 50%" >
+<h1> Prototype Touka </h1>
 
-    <h1> Prototype Touka </h1>
-    <table>
-        {% for l in line %}
-            <tr>
-                <td>{{l|safe}}</td>
-            </tr>
-        {% endfor%}
-    </table>
+
+<div class="container" >
+    <div style="border: 1px  #000000; width: 80%; margin: 0 auto;">
+        <span>
+            <pre><table>
+                {% for l in line %}
+                    <tr>
+                        <td>{{l|safe}}</td>
+                    </tr>
+                {% endfor%}
+            </table></pre>
+        </span>
+    </div>>
+</div>
+
+<style>
+.container {
+  height: 250px;
+  width: 500px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column-reverse;
+}
+</style>
+
+
+    
+
     <form method = "post">
-        <div>
-            <input type ="text" name= "text" placeholder="type here">
+        <div style="border: 1px  #000000; width: 90%; margin: 0 auto;">
+            <input type ="text" name= "text" placeholder="type here" width=300 style="width: 400px;height:60px;">
+            <input type="submit" value="send">
         </div>
     </form>
+
+
+
+
+
 </body>
 </html>
