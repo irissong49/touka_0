@@ -249,3 +249,49 @@ Thu Jan 20 11:14:35 2022send to client:["that's cool"]
 Thu Jan 20 11:14:45 2022established a connection from:('127.0.0.1', 57760)
 Thu Jan 20 11:14:45 2022received from clinet: 静安是低风险吗
 Thu Jan 20 11:14:47 2022send to client:静安区静安寺街道愚园路228号是中风险静安区其他区域是低风险
+Mon Jan 24 23:37:50 2022Server started listening...
+Mon Jan 24 23:37:54 2022established a connection from:('127.0.0.1', 60607)
+Mon Jan 24 23:37:54 2022received from clinet: a
+Mon Jan 24 23:37:54 2022send to client:['please go on']
+Mon Jan 24 23:37:58 2022established a connection from:('127.0.0.1', 60610)
+Mon Jan 24 23:37:58 2022received from clinet: ��ɶ
+Mon Jan 24 23:37:58 2022send to client:['��ɶ?']
+Mon Jan 24 23:38:01 2022established a connection from:('127.0.0.1', 60613)
+Mon Jan 24 23:38:01 2022received from clinet: da
+Mon Jan 24 23:38:01 2022send to client:['da!']
+Mon Jan 24 23:38:05 2022established a connection from:('127.0.0.1', 60616)
+Mon Jan 24 23:38:05 2022received from clinet: ����
+Mon Jan 24 23:38:05 2022send to client:['i like your idea']
+Mon Jan 24 23:38:10 2022established a connection from:('127.0.0.1', 60619)
+Mon Jan 24 23:38:10 2022received from clinet: repeat
+Mon Jan 24 23:38:10 2022send to client:['repeat?']
+Mon Jan 24 23:38:12 2022established a connection from:('127.0.0.1', 60623)
+Mon Jan 24 23:38:12 2022received from clinet: yeh
+Mon Jan 24 23:38:12 2022send to client:['yeh!']
+Mon Jan 24 23:38:18 2022established a connection from:('127.0.0.1', 60629)
+Mon Jan 24 23:38:18 2022received from clinet: no
+Mon Jan 24 23:38:18 2022send to client:['I see.']
+Mon Jan 24 23:38:23 2022established a connection from:('127.0.0.1', 60634)
+Mon Jan 24 23:38:23 2022received from clinet: dont talk
+Mon Jan 24 23:38:23 2022send to client:['i like your idea']
+Mon Jan 24 23:40:05 2022established a connection from:('127.0.0.1', 60741)
+Mon Jan 24 23:40:05 2022received from clinet: dont talk
+Mon Jan 24 23:40:05 2022send to client:['dont talk?']
+Mon Jan 24 23:40:46 2022established a connection from:('127.0.0.1', 60744)
+Mon Jan 24 23:40:46 2022received from clinet: dont talk
+Mon Jan 24 23:40:46 2022send to client:['dont talk?']
+Mon Jan 24 23:41:19 2022established a connection from:('127.0.0.1', 60748)
+Mon Jan 24 23:41:19 2022received from clinet: dont talk
+Mon Jan 24 23:41:19 2022send to client:['dont talk!']
+Mon Jan 24 23:41:23 2022established a connection from:('127.0.0.1', 60751)
+Mon Jan 24 23:41:23 2022received from clinet: clear��
+Mon Jan 24 23:41:23 2022send to client:['clear��!']
+Mon Jan 24 23:41:27 2022established a connection from:('127.0.0.1', 60754)
+Mon Jan 24 23:41:27 2022received from clinet: clear!
+Mon Jan 24 23:41:27 2022send to client:["that's cool"]
+Mon Jan 24 23:41:29 2022established a connection from:('127.0.0.1', 60757)
+Mon Jan 24 23:41:29 2022received from clinet: hi
+Mon Jan 24 23:41:29 2022send to client:['hi?']
+Mon Jan 24 23:41:31 2022established a connection from:('127.0.0.1', 60760)
+Mon Jan 24 23:41:31 2022received from clinet: sbsb
+Mon Jan 24 23:41:31 2022send to client:['sbsb?']

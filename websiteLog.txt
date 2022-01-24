@@ -228,3 +228,49 @@ Thu Jan 20 11:14:35 2022from server:["that's cool"]
 Thu Jan 20 11:14:45 2022from website:静安是低风险吗
 Thu Jan 20 11:14:45 2022sending to server:静安是低风险吗
 Thu Jan 20 11:14:50 2022from server:['静', '安', '区', '静', '安', '寺', '街', '道', '愚', '园', '路', '2', '2', '8', '号', '是', '中', '风', '险', '静', '安', '区', '其', '他', '区', '域', '是', '低', '风', '险']
+Mon Jan 24 22:47:56 2022from website:hi
+Mon Jan 24 23:37:54 2022from website:a
+Mon Jan 24 23:37:54 2022sending to server:a
+Mon Jan 24 23:37:54 2022from server:['please go on<br>']
+Mon Jan 24 23:37:58 2022from website:��ɶ
+Mon Jan 24 23:37:58 2022sending to server:��ɶ
+Mon Jan 24 23:37:58 2022from server:['��ɶ?<br>']
+Mon Jan 24 23:38:01 2022from website:da
+Mon Jan 24 23:38:01 2022sending to server:da
+Mon Jan 24 23:38:01 2022from server:['da!<br>']
+Mon Jan 24 23:38:05 2022from website:����
+Mon Jan 24 23:38:05 2022sending to server:����
+Mon Jan 24 23:38:05 2022from server:['i like your idea<br>']
+Mon Jan 24 23:38:10 2022from website:repeat
+Mon Jan 24 23:38:10 2022sending to server:repeat
+Mon Jan 24 23:38:10 2022from server:['repeat?<br>']
+Mon Jan 24 23:38:12 2022from website:yeh
+Mon Jan 24 23:38:12 2022sending to server:yeh
+Mon Jan 24 23:38:13 2022from server:['yeh!<br>']
+Mon Jan 24 23:38:18 2022from website:no
+Mon Jan 24 23:38:18 2022sending to server:no
+Mon Jan 24 23:38:18 2022from server:['I see.<br>']
+Mon Jan 24 23:38:23 2022from website:dont talk
+Mon Jan 24 23:38:23 2022sending to server:dont talk
+Mon Jan 24 23:38:23 2022from server:['i like your idea<br>']
+Mon Jan 24 23:40:05 2022from website:dont talk
+Mon Jan 24 23:40:05 2022sending to server:dont talk
+Mon Jan 24 23:40:05 2022from server:['dont talk?<br>']
+Mon Jan 24 23:40:46 2022from website:dont talk
+Mon Jan 24 23:40:46 2022sending to server:dont talk
+Mon Jan 24 23:40:46 2022from server:['dont talk?<br>']
+Mon Jan 24 23:41:19 2022from website:dont talk
+Mon Jan 24 23:41:19 2022sending to server:dont talk
+Mon Jan 24 23:41:19 2022from server:['dont talk!<br>']
+Mon Jan 24 23:41:23 2022from website:clear��
+Mon Jan 24 23:41:23 2022sending to server:clear��
+Mon Jan 24 23:41:23 2022from server:['clear��!<br>']
+Mon Jan 24 23:41:27 2022from website:clear!
+Mon Jan 24 23:41:27 2022sending to server:clear!
+Mon Jan 24 23:41:27 2022from server:["that's cool<br>"]
+Mon Jan 24 23:41:29 2022from website:hi
+Mon Jan 24 23:41:29 2022sending to server:hi
+Mon Jan 24 23:41:29 2022from server:['hi?<br>']
+Mon Jan 24 23:41:31 2022from website:sbsb
+Mon Jan 24 23:41:31 2022sending to server:sbsb
+Mon Jan 24 23:41:32 2022from server:['sbsb?<br>']

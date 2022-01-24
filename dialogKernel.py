@@ -22,8 +22,14 @@ import time
 import json
 import sys
 
-HOST='127.0.0.1'
-PORT=50007
+f=open("config.json","r")
+config=json.load(f)
+f.close()
+
+
+HOST=config['logicKernelHost']#'127.0.0.1'
+PORT=config['logicKernelPort']#50007
+WEBPORT=config['websitePort']
 
 all_maimai=[]
 search_result=[]

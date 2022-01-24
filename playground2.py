@@ -2,16 +2,26 @@
 # -*- coding:utf-8 -*-
 from flask import Flask, render_template, request
 import socket,time
+import json
 
-HOST='127.0.0.1'
-PORT=50007
+f=open("config.json","r")
+config=json.load(f)
+f.close()
 
-dialog=["Hi, stranger.\n I'm Touka. Talk to me.\n NLP module is not connected yet. But you can ask me things about MaiMai/Arknights."]
+
+HOST=config['logicKernelHost']#'127.0.0.1'
+PORT=config['logicKernelPort']#50007
+WEBPORT=config['websitePort']
+
+
+dialog=["**NLP module unreachable, switching to substitute mode Eliza.**","**logic kernel connected**<br>Current Avaliable functional keyword: maimai/arknights/xx区风险查询(shanghai only)","Hello, random stranger. I'm Touka."]
+
+
+
 app = Flask(__name__)
 
 
 #!/usr/bin/python
-import socket
       #定义socket类型，网络通信，TCP
 """
 HOST='127.0.0.1'
@@ -41,7 +51,7 @@ def sendmsg(cmd):
     for i in range(server_reply_length):
         server_reply=c.recv(10240).decode('utf-8')
         #  server_reply="placeholder "
-        data.append(server_reply)
+        data.append(server_reply+"<br>")
 
     writelog("from server:"+str(data))
     c.close()
@@ -69,6 +79,8 @@ s.close()   #关闭连接
 
 @app.route('/',methods=['GET','POST'])
 def index():
+    print("=0=")
+    print(request.values.get('key'))
     if request.method == "POST":
         msg = request.form.get('text')
 
@@ -84,4 +96,4 @@ def index():
     return render_template("playground3.html",line=dialog)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port='5000', debug=True)
+    app.run(host='0.0.0.0', port=WEBPORT, debug=True)
