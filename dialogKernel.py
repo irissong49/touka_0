@@ -310,7 +310,49 @@ def execText(text):
     reply=r.content
     return ((reply,-1))
 
-def queryCovidRisk(text):
+def queryCovidRisk(searchPlace):
+    url="https://diqu.gezhong.vip/api.php"
+    headers = {
+                    'Cookie':'OCSSID=4df0bjva6j7ejussu8al3eqo03',
+                    'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+                    '(KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+                }
+    res = requests.get(url,headers = headers)
+    soup = BeautifulSoup(res.content,"html.parser",from_encoding='gb18030')
+    
+
+    data=eval(soup.get_text())
+
+    updateTime=data['data']['end_update_time']
+    hList=data['data']['highlist']
+    mList=data['data']['middlelist']
+
+
+    searchResult=[]
+    searchResult1=[]
+    searchResult2=[]
+
+    for l in hList:
+        if searchPlace in l['area_name']:
+            searchResult1.append([l['area_name'],l['communitys']])
+    if len(searchResult1)!=0:
+        searchResult=[["====高风险地区====",":("]]+searchResult1
+        
+    for l in mList:
+        if searchPlace in l['area_name']:
+            searchResult2.append([l['area_name'],l['communitys']])
+    if len(searchResult2)!=0:
+        searchResult=searchResult+[["====中风险地区====",":("]]+searchResult2    
+        
+
+    if searchResult==[]:
+        result="恭喜，截止{}，{}相关没有一个风险地区".format(updateTime,searchPlace)
+    else:
+        result=["以下是{}发布的与{}相关的风险地区".format(updateTime,searchPlace),"<pre>"+pd.DataFrame(searchResult).to_html(classes='data')+"</pre>"]#str(pd.DataFrame(searchResult))
+        
+    return((result,-1))
+
+    """
     headers = {
                     'Cookie':'OCSSID=4df0bjva6j7ejussu8al3eqo03',
                     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
@@ -323,6 +365,46 @@ def queryCovidRisk(text):
     soup = BeautifulSoup(res.content,"html.parser",from_encoding='gb18030')
     reply = soup.get_text().replace("\n","").split("每日更新")[1].split("防疫工具箱")[0].replace(" ","是")
     return ((reply,-1))
+    """
+
+def queryWeather(line):
+    #可能应该放个命名实体提取在这里提地名
+    searchString=line.replace("天气","")
+    payload = {"": searchString}
+    url="https://www.tianqiapi.com/api/?appid=29619714&appsecret=CaGkH2Pa&version=v9&city={}&ip=0&callback=0".format(urlencode(payload)[1:])
+    headers = {
+                    'Cookie':'OCSSID=4df0bjva6j7ejussu8al3eqo03',
+                    'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+                    '(KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+                    "content-type": "application/x-www-form-urlencoded"
+                }
+    res = requests.get(url,headers = headers)
+    soup = BeautifulSoup(res.content,"html.parser",from_encoding='utf8')
+    soup = eval(soup.get_text())
+    reply=""
+    if 'city' not in soup.keys():
+        reply="请使用类似于‘上海天气’这样的问法…… 不要浪费我的api使用次数。"
+    else:
+        for day in soup["data"]:
+            #l2=[day['day'].split("星期")[1].replace("）",""),day['wea_day'],day['tem1'],day['tem2'],day['hours'][4]['tem']]
+            s="周{}的天气是{},最高温度{},最低温度{},晚上温度{}".format(day['day'].split("星期")[1].replace("）",""),day['wea_day'],day['tem1'],day['tem2'],day['hours'][4]['tem'])
+            reply=reply+s+"\n"
+    return((reply,-1))
+
+def rollDice(inputstr):
+    param=(inputstr+" ")[2:]
+    upperlimit=100
+    if param!=" " and param[0]=="d":
+        try: 
+            tmp = int(param[1:])
+            upperlimit=tmp
+        except:
+            pass     
+    reply=str(random.randint(1,upperlimit))
+            
+    return((reply,-1))
+
+
 
 def writelog(msg):
     fp = open("serverLog.txt",'a')
@@ -378,6 +460,12 @@ def main():
             reply,registedEvent=execText(line)
         elif "风险" in line:
             reply,registedEvent=queryCovidRisk(line[:2])
+        elif "天气" in line:
+            reply,registedEvent=queryWeather(line)
+        elif line[0:2]==".r":
+            reply,registedEvent=rollDice(line)
+        elif line=="kill kernel":
+            exit()
 
         #==not the functional modules, start NLP(?)==
         else:
@@ -396,7 +484,7 @@ def main():
             elif "you're" in line:
                 reply.append( line.replace("you're","i am")+"!")
             elif "ip" in line:
-                reply.append(str(HOST)+str(PORT))
+                reply.append(str(HOST)+":"+str(PORT))
             else:
                 tmp=random.randint(0,10)
                 if tmp==0:
